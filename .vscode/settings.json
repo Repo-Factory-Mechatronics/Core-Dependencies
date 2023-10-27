@@ -86,6 +86,6 @@
         "/usr/**"
     ],
     "C_Cpp.errorSquiggles": "enabled",
-    "cmake.sourceDirectory": "/home/robox/core_dependencies/robot_types",
+    "cmake.sourceDirectory": "/home/robox/core_dependencies",
     
 }
