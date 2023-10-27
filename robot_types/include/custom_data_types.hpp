@@ -6,10 +6,10 @@ namespace RTL
 {
     struct SendFrameRequest
     {
-        int32_t can_id;
-        int8_t can_dlc;
-        int8_t status;
-        uint8_t can_data[];
+        const int32_t can_id;
+        const int8_t can_dlc;
+        const int8_t status;
+        const uint8_t* can_data;
     };
 }
 
