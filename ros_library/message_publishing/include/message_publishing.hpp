@@ -3,7 +3,7 @@
 
 namespace MessagePublishing
 {
-    void kill(RTL::sub_state_pub_t& sub_state_pub);
+    void kill(const RTL::sub_state_pub_t& sub_state_pub);
 }
 
 #endif

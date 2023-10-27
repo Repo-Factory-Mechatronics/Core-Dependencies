@@ -6,8 +6,6 @@
 #include "scion_types/srv/send_frame.hpp"
 #include "scion_types/msg/idea.hpp"
 #include "scion_types/msg/state.hpp"
-#include "scion_types/msg/position.hpp"
-#include "scion_types/msg/orientation.hpp"
 #include "scion_types/msg/datapoint.hpp"
 #include "scion_types/msg/vision_object.hpp"
 #include "scion_types/msg/zed_object.hpp"

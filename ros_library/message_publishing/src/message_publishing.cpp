@@ -1,6 +1,6 @@
 #include "ros_operations.hpp"
 
-void RosOperations::MessagePublishing::kill(RTL::sub_state_pub_t& sub_state_pub)
+void RosOperations::MessagePublishing::kill(const RTL::sub_state_pub_t& sub_state_pub)
 {
     #define KILL_MODE 0
     scion_types::msg::SubState msg;
