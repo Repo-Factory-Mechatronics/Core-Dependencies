@@ -27,13 +27,7 @@ rosidl_generate_interfaces(scion_types
   "scion_types/msg/VisionObject.msg"
   "scion_types/msg/ZedObject.msg"
   "scion_types/srv/CanCommand.srv"
-  "scion_types/srv/ChangeDesiredState.srv"
-  "scion_types/srv/GetDesiredState.srv"
-  "scion_types/srv/GetAbsoluteState.srv"
   "scion_types/srv/SendFrame.srv"
-  "scion_types/srv/Boolean.srv"
-  "scion_types/srv/SendFrame.srv"
-  "scion_types/srv/UpdatePid.srv"
 )
 
 include_directories(${PROJECT_NAME} PRIVATE
