@@ -1,1 +1,0 @@
-/* Solely exists to give source to add_library() of CMake */
