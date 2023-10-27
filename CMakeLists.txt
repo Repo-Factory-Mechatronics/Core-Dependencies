@@ -23,7 +23,6 @@ rosidl_generate_interfaces(scion_types
   "scion_types/msg/Keypoint2Di.msg"
   "scion_types/msg/PidTuning.msg"
   "scion_types/msg/RawData.msg"
-  "scion_types/msg/State.msg"
   "scion_types/msg/SubState.msg"
   "scion_types/msg/VisionObject.msg"
   "scion_types/msg/ZedObject.msg"

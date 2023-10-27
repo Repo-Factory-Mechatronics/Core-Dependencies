@@ -4,13 +4,7 @@
 #include "rclcpp/rclcpp.hpp"
 #include "custom_data_types.hpp"
 #include "scion_types/srv/send_frame.hpp"
-#include "scion_types/msg/idea.hpp"
-#include "scion_types/msg/state.hpp"
 #include "scion_types/msg/datapoint.hpp"
-#include "scion_types/msg/vision_object.hpp"
-#include "scion_types/msg/zed_object.hpp"
-#include "scion_types/msg/pid_tuning.hpp"
-#include "scion_types/msg/raw_data.hpp"
 #include "scion_types/msg/sub_state.hpp"
 
 namespace RTL   // RobotTypeLibrary
