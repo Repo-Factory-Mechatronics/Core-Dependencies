@@ -38,7 +38,12 @@ send_frame_response_t ServiceAPIs::SendFrame(const node_t node, const send_frame
         auto send_frame_request = std::make_shared<scion_types::srv::SendFrame::Request>();
         send_frame_request->can_id = request.can_id;
         send_frame_request->can_dlc = request.can_dlc;
-        send_frame_request->can_data = request.can_data;
+        std::copy
+        (
+            request.can_data,
+            request.can_data + request.can_dlc,
+            send_frame_request->can_data.begin()
+        );
         return client->async_send_request(send_frame_request).share();
     });
 }

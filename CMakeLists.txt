@@ -16,19 +16,19 @@ find_package(shape_msgs REQUIRED)
 find_package(std_msgs REQUIRED)
 find_package(rosidl_default_generators REQUIRED)
 
-rosidl_generate_interfaces(scion_types
-  "scion_types/msg/CanFrame.msg"
-  "scion_types/msg/Datapoint.msg"
-  "scion_types/msg/Idea.msg"
-  "scion_types/msg/Keypoint2Di.msg"
-  "scion_types/msg/PidTuning.msg"
-  "scion_types/msg/RawData.msg"
-  "scion_types/msg/SubState.msg"
-  "scion_types/msg/VisionObject.msg"
-  "scion_types/msg/ZedObject.msg"
-  "scion_types/srv/CanCommand.srv"
-  "scion_types/srv/SendFrame.srv"
-)
+# rosidl_generate_interfaces(scion_types
+#   "scion_types/msg/CanFrame.msg"
+#   "scion_types/msg/Datapoint.msg"
+#   "scion_types/msg/Idea.msg"
+#   "scion_types/msg/Keypoint2Di.msg"
+#   "scion_types/msg/PidTuning.msg"
+#   "scion_types/msg/RawData.msg"
+#   "scion_types/msg/SubState.msg"
+#   "scion_types/msg/VisionObject.msg"
+#   "scion_types/msg/ZedObject.msg"
+#   "scion_types/srv/CanCommand.srv"
+#   "scion_types/srv/SendFrame.srv"
+# )
 
 include_directories(${PROJECT_NAME} PRIVATE
     robot_types/include
@@ -41,7 +41,7 @@ add_library(${PROJECT_NAME} SHARED
 install(TARGETS ${PROJECT_NAME} DESTINATION lib)
 
 set(PUBLIC_HEADERS 
-    ros_library/include/public_service_apis.hpp
+    ros_library/public_service_apis/include/public_service_apis.hpp
     robot_types/include/custom_ros_types.hpp
     robot_types/include/custom_data_types.hpp
     robot_types/include/std_ros_types.hpp        
