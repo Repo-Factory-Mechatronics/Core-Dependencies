@@ -40,9 +40,9 @@ send_frame_response_t ServiceAPIs::SendFrame(const node_t& node, const send_fram
         send_frame_request->can_dlc = request.can_dlc;
         std::copy
         (
-            request.can_data,
-            request.can_data + request.can_dlc,
-            send_frame_request->can_data.begin()
+            std::begin(request.can_data),
+            std::end(request.can_data),
+            std::begin(send_frame_request->can_data)
         );
         return client->async_send_request(send_frame_request).share();
     });

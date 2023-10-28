@@ -2,6 +2,8 @@
 #define STRUCT_TYPES_H
 #define CAN_DATA_SIZE 8 // BYTES
 
+#include <vector>
+
 namespace RTL
 {
     struct SendFrameRequest
@@ -9,7 +11,7 @@ namespace RTL
         const int32_t can_id;
         const int8_t can_dlc;
         const int8_t status;
-        const uint8_t* can_data;
+        const std::vector<uint8_t> can_data;
     };
 }
 
