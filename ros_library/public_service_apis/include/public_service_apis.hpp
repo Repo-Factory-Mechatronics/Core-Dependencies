@@ -7,7 +7,7 @@
 namespace ServiceAPIs
 {
     /* auto-gen*/
-    RTL::send_frame_response_t SendFrame(const RTL::node_t node, const RTL::send_frame_client_t client, const RTL::SendFrameRequest& requester_name);
+    RTL::send_frame_response_t SendFrame(const RTL::node_t& node, const RTL::send_frame_client_t& client, const RTL::SendFrameRequest& request);
 };
 
 #endif

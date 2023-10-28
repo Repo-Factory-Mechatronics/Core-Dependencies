@@ -21,7 +21,7 @@ namespace
     }
 
     template<typename responseType, typename futureType, typename clientType>
-    responseType makeServiceCall(const node_t node, const clientType client, const std::function<futureType()> makeRequest)
+    responseType makeServiceCall(const node_t& node, const clientType& client, const std::function<futureType()> makeRequest)
     {
         if(!validateService(client))
             return nullptr;
@@ -32,7 +32,7 @@ namespace
 }
 
 /* auto-gen */
-send_frame_response_t ServiceAPIs::SendFrame(const node_t node, const send_frame_client_t client, const SendFrameRequest& request)
+send_frame_response_t ServiceAPIs::SendFrame(const node_t& node, const send_frame_client_t& client, const SendFrameRequest& request)
 {
     return makeServiceCall<send_frame_response_t, send_frame_future_t>(node, client, [&]() {
         auto send_frame_request = std::make_shared<scion_types::srv::SendFrame::Request>();
