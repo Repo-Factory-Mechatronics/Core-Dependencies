@@ -14,21 +14,6 @@ find_package(std_srvs REQUIRED)
 find_package(sensor_msgs REQUIRED)
 find_package(shape_msgs REQUIRED)
 find_package(std_msgs REQUIRED)
-find_package(rosidl_default_generators REQUIRED)
-
-# rosidl_generate_interfaces(scion_types
-#   "scion_types/msg/CanFrame.msg"
-#   "scion_types/msg/Datapoint.msg"
-#   "scion_types/msg/Idea.msg"
-#   "scion_types/msg/Keypoint2Di.msg"
-#   "scion_types/msg/PidTuning.msg"
-#   "scion_types/msg/RawData.msg"
-#   "scion_types/msg/SubState.msg"
-#   "scion_types/msg/VisionObject.msg"
-#   "scion_types/msg/ZedObject.msg"
-#   "scion_types/srv/CanCommand.srv"
-#   "scion_types/srv/SendFrame.srv"
-# )
 
 include_directories(${PROJECT_NAME} PRIVATE
     robot_types/include
