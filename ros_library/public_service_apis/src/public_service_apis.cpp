@@ -26,7 +26,7 @@ namespace
         if(!validateService(client))
             return nullptr;
         auto future = makeRequest();
-        rclcpp::spin_until_future_complete(node, future);
+        rclcpp::spin_until_future_complete(node, future, std::chrono::seconds(1));
         return future.get();
     }
 }
