@@ -1,0 +1,68 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from scion_types/msg/ZedObject.msg
+// generated code does not contain a copyright notice
+
+#include "scion_types/msg/Keypoint2Di.idl"
+
+module scion_types {
+  module msg {
+    typedef float float__3[3];
+    typedef float float__6[6];
+    typedef scion_types::msg::Keypoint2Di scion_types__msg__Keypoint2Di;
+    typedef scion_types__msg__Keypoint2Di scion_types__msg__Keypoint2Di__4[4];
+    @verbatim (language="comment", text=
+      " Object label")
+    struct ZedObject {
+      string label;
+
+      @verbatim (language="comment", text=
+        " Object label ID")
+      int16 label_id;
+
+      @verbatim (language="comment", text=
+        " Object sub")
+      string sublabel;
+
+      @verbatim (language="comment", text=
+        " Object confidence level (1-99)")
+      float confidence;
+
+      @verbatim (language="comment", text=
+        " Object centroid position")
+      float__3 position;
+
+      @verbatim (language="comment", text=
+        " Position covariance")
+      float__6 position_covariance;
+
+      @verbatim (language="comment", text=
+        " Object velocity")
+      float__3 velocity;
+
+      @verbatim (language="comment", text=
+        " Tracking available")
+      boolean tracking_available;
+
+      @verbatim (language="comment", text=
+        " Tracking state" "\n"
+        " 0 -> OFF (object not valid)" "\n"
+        " 1 -> OK" "\n"
+        " 2 -> SEARCHING (occlusion occurred, trajectory is estimated)")
+      int8 tracking_state;
+
+      @verbatim (language="comment", text=
+        " Action state" "\n"
+        " 0 -> IDLE" "\n"
+        " 2 -> MOVING")
+      int8 action_state;
+
+      @verbatim (language="comment", text=
+        " 3D dimensions (width, height, lenght)")
+      float__3 dimensions_3d;
+
+      @verbatim (language="comment", text=
+        " 2D bounding box that I had to manually yank in here because zed github is trash")
+      scion_types__msg__Keypoint2Di__4 corners;
+    };
+  };
+};

@@ -1,0 +1,122 @@
+[0.491s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'scion_types']
+[0.491s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffffa5176520>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=['scion_types'], packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=12, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffffa5176520>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffffa5073970>)
+[0.556s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.556s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.556s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.556s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.557s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.557s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.557s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/mechatronics/core_dependencies/scion_types'
+[0.557s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.557s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.557s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.557s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.557s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.557s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.557s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.558s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.558s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.582s] DEBUG:colcon.colcon_core.package_identification:Package '.' with type 'ros.ament_cmake' and name 'scion_types'
+[0.582s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.582s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.582s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.583s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.583s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.622s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.622s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.628s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/mechatronics/can_server/install
+[0.631s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 260 installed packages in /opt/ros/foxy
+[0.633s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.717s] Level 5:colcon.colcon_core.verb:set package 'scion_types' build argument 'cmake_args' from command line to 'None'
+[0.717s] Level 5:colcon.colcon_core.verb:set package 'scion_types' build argument 'cmake_target' from command line to 'None'
+[0.717s] Level 5:colcon.colcon_core.verb:set package 'scion_types' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.717s] Level 5:colcon.colcon_core.verb:set package 'scion_types' build argument 'cmake_clean_cache' from command line to 'False'
+[0.717s] Level 5:colcon.colcon_core.verb:set package 'scion_types' build argument 'cmake_clean_first' from command line to 'False'
+[0.718s] Level 5:colcon.colcon_core.verb:set package 'scion_types' build argument 'cmake_force_configure' from command line to 'False'
+[0.718s] Level 5:colcon.colcon_core.verb:set package 'scion_types' build argument 'ament_cmake_args' from command line to 'None'
+[0.718s] Level 5:colcon.colcon_core.verb:set package 'scion_types' build argument 'catkin_cmake_args' from command line to 'None'
+[0.718s] Level 5:colcon.colcon_core.verb:set package 'scion_types' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.718s] DEBUG:colcon.colcon_core.verb:Building package 'scion_types' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/mechatronics/core_dependencies/scion_types/build/scion_types', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/mechatronics/core_dependencies/scion_types/install/scion_types', 'merge_install': False, 'path': '/home/mechatronics/core_dependencies/scion_types', 'symlink_install': False, 'test_result_base': None}
+[0.720s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.730s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.731s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/mechatronics/core_dependencies/scion_types' with build type 'ament_cmake'
+[0.731s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/mechatronics/core_dependencies/scion_types'
+[0.739s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.739s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.739s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.760s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mechatronics/core_dependencies/scion_types/build/scion_types': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/mechatronics/core_dependencies/scion_types -DCMAKE_INSTALL_PREFIX=/home/mechatronics/core_dependencies/scion_types/install/scion_types
+[3.951s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mechatronics/core_dependencies/scion_types/build/scion_types' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/mechatronics/core_dependencies/scion_types -DCMAKE_INSTALL_PREFIX=/home/mechatronics/core_dependencies/scion_types/install/scion_types
+[3.958s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mechatronics/core_dependencies/scion_types/build/scion_types': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/mechatronics/core_dependencies/scion_types/build/scion_types -- -j12 -l12
+[13.072s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mechatronics/core_dependencies/scion_types/build/scion_types' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/mechatronics/core_dependencies/scion_types/build/scion_types -- -j12 -l12
+[13.383s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mechatronics/core_dependencies/scion_types/build/scion_types': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/mechatronics/core_dependencies/scion_types/build/scion_types
+[13.516s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(scion_types)
+[13.519s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mechatronics/core_dependencies/scion_types/build/scion_types' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/mechatronics/core_dependencies/scion_types/build/scion_types
+[13.541s] Level 1:colcon.colcon_core.environment:checking '/home/mechatronics/core_dependencies/scion_types/install/scion_types' for CMake module files
+[13.542s] Level 1:colcon.colcon_core.environment:checking '/home/mechatronics/core_dependencies/scion_types/install/scion_types' for CMake config files
+[13.542s] Level 1:colcon.colcon_core.shell:create_environment_hook('scion_types', 'cmake_prefix_path')
+[13.550s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mechatronics/core_dependencies/scion_types/install/scion_types/share/scion_types/hook/cmake_prefix_path.ps1'
+[13.552s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mechatronics/core_dependencies/scion_types/install/scion_types/share/scion_types/hook/cmake_prefix_path.dsv'
+[13.552s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mechatronics/core_dependencies/scion_types/install/scion_types/share/scion_types/hook/cmake_prefix_path.sh'
+[13.554s] Level 1:colcon.colcon_core.environment:checking '/home/mechatronics/core_dependencies/scion_types/install/scion_types/lib'
+[13.555s] Level 1:colcon.colcon_core.shell:create_environment_hook('scion_types', 'ld_library_path_lib')
+[13.560s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mechatronics/core_dependencies/scion_types/install/scion_types/share/scion_types/hook/ld_library_path_lib.ps1'
+[13.561s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mechatronics/core_dependencies/scion_types/install/scion_types/share/scion_types/hook/ld_library_path_lib.dsv'
+[13.562s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mechatronics/core_dependencies/scion_types/install/scion_types/share/scion_types/hook/ld_library_path_lib.sh'
+[13.562s] Level 1:colcon.colcon_core.environment:checking '/home/mechatronics/core_dependencies/scion_types/install/scion_types/bin'
+[13.562s] Level 1:colcon.colcon_core.environment:checking '/home/mechatronics/core_dependencies/scion_types/install/scion_types/lib/pkgconfig/scion_types.pc'
+[13.563s] Level 1:colcon.colcon_core.environment:checking '/home/mechatronics/core_dependencies/scion_types/install/scion_types/lib/python3.8/site-packages'
+[13.563s] Level 1:colcon.colcon_core.shell:create_environment_hook('scion_types', 'pythonpath')
+[13.568s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mechatronics/core_dependencies/scion_types/install/scion_types/share/scion_types/hook/pythonpath.ps1'
+[13.568s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mechatronics/core_dependencies/scion_types/install/scion_types/share/scion_types/hook/pythonpath.dsv'
+[13.569s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mechatronics/core_dependencies/scion_types/install/scion_types/share/scion_types/hook/pythonpath.sh'
+[13.570s] Level 1:colcon.colcon_core.environment:checking '/home/mechatronics/core_dependencies/scion_types/install/scion_types/bin'
+[13.574s] INFO:colcon.colcon_core.shell:Creating package script '/home/mechatronics/core_dependencies/scion_types/install/scion_types/share/scion_types/package.ps1'
+[13.575s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mechatronics/core_dependencies/scion_types/install/scion_types/share/scion_types/package.dsv'
+[13.576s] INFO:colcon.colcon_core.shell:Creating package script '/home/mechatronics/core_dependencies/scion_types/install/scion_types/share/scion_types/package.sh'
+[13.577s] INFO:colcon.colcon_core.shell:Creating package script '/home/mechatronics/core_dependencies/scion_types/install/scion_types/share/scion_types/package.bash'
+[13.578s] INFO:colcon.colcon_core.shell:Creating package script '/home/mechatronics/core_dependencies/scion_types/install/scion_types/share/scion_types/package.zsh'
+[13.579s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mechatronics/core_dependencies/scion_types/install/scion_types/share/colcon-core/packages/scion_types)
+[13.874s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(scion_types)
+[13.890s] Level 1:colcon.colcon_core.environment:checking '/home/mechatronics/core_dependencies/scion_types/install/scion_types' for CMake module files
+[13.893s] Level 1:colcon.colcon_core.environment:checking '/home/mechatronics/core_dependencies/scion_types/install/scion_types' for CMake config files
+[13.893s] Level 1:colcon.colcon_core.shell:create_environment_hook('scion_types', 'cmake_prefix_path')
+[13.903s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mechatronics/core_dependencies/scion_types/install/scion_types/share/scion_types/hook/cmake_prefix_path.ps1'
+[13.905s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mechatronics/core_dependencies/scion_types/install/scion_types/share/scion_types/hook/cmake_prefix_path.dsv'
+[13.906s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mechatronics/core_dependencies/scion_types/install/scion_types/share/scion_types/hook/cmake_prefix_path.sh'
+[13.907s] Level 1:colcon.colcon_core.environment:checking '/home/mechatronics/core_dependencies/scion_types/install/scion_types/lib'
+[13.908s] Level 1:colcon.colcon_core.shell:create_environment_hook('scion_types', 'ld_library_path_lib')
+[13.914s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mechatronics/core_dependencies/scion_types/install/scion_types/share/scion_types/hook/ld_library_path_lib.ps1'
+[13.915s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mechatronics/core_dependencies/scion_types/install/scion_types/share/scion_types/hook/ld_library_path_lib.dsv'
+[13.916s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mechatronics/core_dependencies/scion_types/install/scion_types/share/scion_types/hook/ld_library_path_lib.sh'
+[13.917s] Level 1:colcon.colcon_core.environment:checking '/home/mechatronics/core_dependencies/scion_types/install/scion_types/bin'
+[13.917s] Level 1:colcon.colcon_core.environment:checking '/home/mechatronics/core_dependencies/scion_types/install/scion_types/lib/pkgconfig/scion_types.pc'
+[13.917s] Level 1:colcon.colcon_core.environment:checking '/home/mechatronics/core_dependencies/scion_types/install/scion_types/lib/python3.8/site-packages'
+[13.917s] Level 1:colcon.colcon_core.shell:create_environment_hook('scion_types', 'pythonpath')
+[13.923s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mechatronics/core_dependencies/scion_types/install/scion_types/share/scion_types/hook/pythonpath.ps1'
+[13.923s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mechatronics/core_dependencies/scion_types/install/scion_types/share/scion_types/hook/pythonpath.dsv'
+[13.924s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mechatronics/core_dependencies/scion_types/install/scion_types/share/scion_types/hook/pythonpath.sh'
+[13.925s] Level 1:colcon.colcon_core.environment:checking '/home/mechatronics/core_dependencies/scion_types/install/scion_types/bin'
+[13.930s] INFO:colcon.colcon_core.shell:Creating package script '/home/mechatronics/core_dependencies/scion_types/install/scion_types/share/scion_types/package.ps1'
+[13.931s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mechatronics/core_dependencies/scion_types/install/scion_types/share/scion_types/package.dsv'
+[13.932s] INFO:colcon.colcon_core.shell:Creating package script '/home/mechatronics/core_dependencies/scion_types/install/scion_types/share/scion_types/package.sh'
+[13.932s] INFO:colcon.colcon_core.shell:Creating package script '/home/mechatronics/core_dependencies/scion_types/install/scion_types/share/scion_types/package.bash'
+[13.933s] INFO:colcon.colcon_core.shell:Creating package script '/home/mechatronics/core_dependencies/scion_types/install/scion_types/share/scion_types/package.zsh'
+[13.933s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mechatronics/core_dependencies/scion_types/install/scion_types/share/colcon-core/packages/scion_types)
+[13.934s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[13.934s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[13.934s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[13.935s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[13.943s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[13.944s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[13.944s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[13.993s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[13.998s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/mechatronics/core_dependencies/scion_types/install/local_setup.ps1'
+[14.000s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/mechatronics/core_dependencies/scion_types/install/_local_setup_util_ps1.py'
+[14.002s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/mechatronics/core_dependencies/scion_types/install/setup.ps1'
+[14.005s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/mechatronics/core_dependencies/scion_types/install/local_setup.sh'
+[14.005s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/mechatronics/core_dependencies/scion_types/install/_local_setup_util_sh.py'
+[14.006s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/mechatronics/core_dependencies/scion_types/install/setup.sh'
+[14.008s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/mechatronics/core_dependencies/scion_types/install/local_setup.bash'
+[14.009s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/mechatronics/core_dependencies/scion_types/install/setup.bash'
+[14.011s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/mechatronics/core_dependencies/scion_types/install/local_setup.zsh'
+[14.012s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/mechatronics/core_dependencies/scion_types/install/setup.zsh'

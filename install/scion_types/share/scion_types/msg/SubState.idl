@@ -1,0 +1,21 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from scion_types/msg/SubState.msg
+// generated code does not contain a copyright notice
+
+
+module scion_types {
+  module msg {
+    @verbatim (language="comment", text=
+      " A non-zero value indicates that the state is true;")
+    struct SubState {
+      uint8 shutdown;
+
+      uint8 leak_detect;
+
+      @verbatim (language="comment", text=
+        " The value stored in 'host_mode' corresponds to whatever" "\n"
+        " value is specified for a specific mode in the CAN PROTOCOL sheet")
+      uint8 host_mode;
+    };
+  };
+};

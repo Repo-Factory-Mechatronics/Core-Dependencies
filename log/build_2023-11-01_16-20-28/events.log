@@ -1,0 +1,663 @@
+[0.000000] (-) TimerEvent: {}
+[0.000816] (scion_types) JobQueued: {'identifier': 'scion_types', 'dependencies': OrderedDict()}
+[0.001053] (scion_types) JobStarted: {'identifier': 'scion_types'}
+[0.026673] (scion_types) JobProgress: {'identifier': 'scion_types', 'progress': 'cmake'}
+[0.027104] (scion_types) Command: {'cmd': ['/usr/bin/cmake', '/home/mechatronics/core_dependencies/scion_types', '-DCMAKE_INSTALL_PREFIX=/home/mechatronics/core_dependencies/scion_types/install/scion_types'], 'cwd': '/home/mechatronics/core_dependencies/scion_types/build/scion_types', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'mechatronics'), ('SSH_AGENT_PID', '2402'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64:'), ('HOME', '/home/mechatronics'), ('OLDPWD', '/home/mechatronics'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '2168'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/mechatronics/can_server/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'mechatronics'), ('_', '/usr/bin/colcon'), ('JOURNAL_STREAM', '7:61687'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'mechatronics'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/mechatronics/can_server/install/unified_can_driver/bin:/opt/ros/foxy/bin:/usr/local/cuda-11.4/bin:/home/mechatronics/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/scripts/autogen:/usr/scripts/convenience:/usr/scripts/github:/usr/scripts/machine_setup:/usr/scripts/ros:/usr/scripts/shortcuts:/usr/scripts/string_manipulations:/usr/scripts/system:/usr/local/bin/robot:/usr/scripts/autogen:/usr/scripts/convenience:/usr/scripts/github:/usr/scripts/machine_setup:/usr/scripts/ros:/usr/scripts/shortcuts:/usr/scripts/string_manipulations:/usr/scripts/system:/usr/scripts:/usr/local/include/robot_libraries:/usr/local/bin/scripts:/usr/local/bin/robot/c:/usr/local/bin/robot/py:/usr/local/bin/robot_tests/c:/usr/local/bin/robot_tests/py'), ('SESSION_MANAGER', 'local/jetsonorin:@/tmp/.ICE-unix/2437,unix/jetsonorin:/tmp/.ICE-unix/2437'), ('INVOCATION_ID', '84aa822d2c4e42ba8e5baac8557a03a6'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/f957e0a5_d889_4182_933f_a82470add527'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.568'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/mechatronics/can_server/install/unified_can_driver:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/mechatronics/core_dependencies/scion_types/build/scion_types'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/mechatronics/can_server/install/unified_can_driver:/opt/ros/foxy')]), 'shell': False}
+[0.099259] (-) TimerEvent: {}
+[0.113498] (scion_types) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[0.186325] (scion_types) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[0.192077] (scion_types) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.199319] (-) TimerEvent: {}
+[0.299868] (-) TimerEvent: {}
+[0.306023] (scion_types) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[0.307616] (scion_types) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.399999] (-) TimerEvent: {}
+[0.422513] (scion_types) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.455458] (scion_types) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.456228] (scion_types) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.461553] (scion_types) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[0.500288] (-) TimerEvent: {}
+[0.589496] (scion_types) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[0.591645] (scion_types) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.600378] (-) TimerEvent: {}
+[0.701027] (-) TimerEvent: {}
+[0.723663] (scion_types) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.739907] (scion_types) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.740551] (scion_types) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.744618] (scion_types) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.786077] (scion_types) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[0.786387] (scion_types) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.801135] (-) TimerEvent: {}
+[0.901647] (-) TimerEvent: {}
+[1.002250] (-) TimerEvent: {}
+[1.102839] (-) TimerEvent: {}
+[1.109743] (scion_types) StdoutLine: {'line': b'-- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[1.169883] (scion_types) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.177305] (scion_types) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[1.202872] (-) TimerEvent: {}
+[1.303307] (-) TimerEvent: {}
+[1.314878] (scion_types) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[1.357344] (scion_types) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[1.403423] (-) TimerEvent: {}
+[1.464850] (scion_types) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.503749] (-) TimerEvent: {}
+[1.533876] (scion_types) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[1.535475] (scion_types) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.536726] (scion_types) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.603955] (-) TimerEvent: {}
+[1.656344] (scion_types) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.657045] (scion_types) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.704124] (-) TimerEvent: {}
+[1.773096] (scion_types) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n'}
+[1.773586] (scion_types) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[1.804204] (-) TimerEvent: {}
+[1.873706] (scion_types) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[1.874423] (scion_types) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[1.904350] (-) TimerEvent: {}
+[2.000170] (scion_types) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[2.002585] (scion_types) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[2.004415] (-) TimerEvent: {}
+[2.104857] (-) TimerEvent: {}
+[2.205453] (-) TimerEvent: {}
+[2.209930] (scion_types) StdoutLine: {'line': b'-- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)\n'}
+[2.251660] (scion_types) StdoutLine: {'line': b'-- Found shape_msgs: 2.0.5 (/opt/ros/foxy/share/shape_msgs/cmake)\n'}
+[2.305544] (-) TimerEvent: {}
+[2.329311] (scion_types) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)\n'}
+[2.378598] (scion_types) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") \n'}
+[2.405681] (-) TimerEvent: {}
+[2.506093] (-) TimerEvent: {}
+[2.606591] (-) TimerEvent: {}
+[2.627205] (scion_types) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)\n'}
+[2.706786] (-) TimerEvent: {}
+[2.782340] (scion_types) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.795488] (scion_types) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.806858] (-) TimerEvent: {}
+[2.831303] (scion_types) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[2.832826] (scion_types) StdoutLine: {'line': b'-- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)\n'}
+[2.873969] (scion_types) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[2.874574] (scion_types) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[2.874855] (scion_types) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8\n'}
+[2.875105] (scion_types) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.8.so\n'}
+[2.906960] (-) TimerEvent: {}
+[2.908215] (scion_types) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[3.007138] (-) TimerEvent: {}
+[3.107761] (-) TimerEvent: {}
+[3.124110] (scion_types) StdoutLine: {'line': b'-- Configuring done\n'}
+[3.192319] (scion_types) StdoutLine: {'line': b'-- Generating done\n'}
+[3.196897] (scion_types) StdoutLine: {'line': b'-- Build files have been written to: /home/mechatronics/core_dependencies/scion_types/build/scion_types\n'}
+[3.207846] (-) TimerEvent: {}
+[3.218531] (scion_types) CommandEnded: {'returncode': 0}
+[3.225433] (scion_types) JobProgress: {'identifier': 'scion_types', 'progress': 'build'}
+[3.225762] (scion_types) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/mechatronics/core_dependencies/scion_types/build/scion_types', '--', '-j12', '-l12'], 'cwd': '/home/mechatronics/core_dependencies/scion_types/build/scion_types', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'mechatronics'), ('SSH_AGENT_PID', '2402'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64:'), ('HOME', '/home/mechatronics'), ('OLDPWD', '/home/mechatronics'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '2168'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/mechatronics/can_server/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'mechatronics'), ('_', '/usr/bin/colcon'), ('JOURNAL_STREAM', '7:61687'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'mechatronics'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/mechatronics/can_server/install/unified_can_driver/bin:/opt/ros/foxy/bin:/usr/local/cuda-11.4/bin:/home/mechatronics/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/scripts/autogen:/usr/scripts/convenience:/usr/scripts/github:/usr/scripts/machine_setup:/usr/scripts/ros:/usr/scripts/shortcuts:/usr/scripts/string_manipulations:/usr/scripts/system:/usr/local/bin/robot:/usr/scripts/autogen:/usr/scripts/convenience:/usr/scripts/github:/usr/scripts/machine_setup:/usr/scripts/ros:/usr/scripts/shortcuts:/usr/scripts/string_manipulations:/usr/scripts/system:/usr/scripts:/usr/local/include/robot_libraries:/usr/local/bin/scripts:/usr/local/bin/robot/c:/usr/local/bin/robot/py:/usr/local/bin/robot_tests/c:/usr/local/bin/robot_tests/py'), ('SESSION_MANAGER', 'local/jetsonorin:@/tmp/.ICE-unix/2437,unix/jetsonorin:/tmp/.ICE-unix/2437'), ('INVOCATION_ID', '84aa822d2c4e42ba8e5baac8557a03a6'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/f957e0a5_d889_4182_933f_a82470add527'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.568'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/mechatronics/can_server/install/unified_can_driver:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/mechatronics/core_dependencies/scion_types/build/scion_types'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/mechatronics/can_server/install/unified_can_driver:/opt/ros/foxy')]), 'shell': False}
+[3.302378] (scion_types) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target scion_types__cpp\x1b[0m\n'}
+[3.303094] (scion_types) StdoutLine: {'line': b'[  1%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[3.307936] (-) TimerEvent: {}
+[3.326552] (scion_types) StdoutLine: {'line': b'[  1%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[3.408088] (-) TimerEvent: {}
+[3.508808] (-) TimerEvent: {}
+[3.609320] (-) TimerEvent: {}
+[3.709967] (-) TimerEvent: {}
+[3.810439] (-) TimerEvent: {}
+[3.910900] (-) TimerEvent: {}
+[4.011557] (-) TimerEvent: {}
+[4.112061] (-) TimerEvent: {}
+[4.212573] (-) TimerEvent: {}
+[4.313049] (-) TimerEvent: {}
+[4.413544] (-) TimerEvent: {}
+[4.480336] (scion_types) StdoutLine: {'line': b'[  1%] Built target scion_types__cpp\n'}
+[4.503638] (scion_types) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[4.504076] (scion_types) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[4.508662] (scion_types) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[4.513713] (-) TimerEvent: {}
+[4.577982] (scion_types) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target scion_types__rosidl_generator_c\x1b[0m\n'}
+[4.602855] (scion_types) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/scion_types__rosidl_generator_c.dir/rosidl_generator_c/scion_types/msg/detail/idea__functions.c.o\x1b[0m\n'}
+[4.603429] (scion_types) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/scion_types__rosidl_generator_c.dir/rosidl_generator_c/scion_types/msg/detail/can_frame__functions.c.o\x1b[0m\n'}
+[4.603611] (scion_types) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/scion_types__rosidl_generator_c.dir/rosidl_generator_c/scion_types/msg/detail/raw_data__functions.c.o\x1b[0m\n'}
+[4.603734] (scion_types) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/scion_types__rosidl_generator_c.dir/rosidl_generator_c/scion_types/msg/detail/sub_state__functions.c.o\x1b[0m\n'}
+[4.603874] (scion_types) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/scion_types__rosidl_generator_c.dir/rosidl_generator_c/scion_types/msg/detail/datapoint__functions.c.o\x1b[0m\n'}
+[4.603980] (scion_types) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/scion_types__rosidl_generator_c.dir/rosidl_generator_c/scion_types/msg/detail/pid_tuning__functions.c.o\x1b[0m\n'}
+[4.604193] (scion_types) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/scion_types__rosidl_generator_c.dir/rosidl_generator_c/scion_types/msg/detail/keypoint2_di__functions.c.o\x1b[0m\n'}
+[4.604395] (scion_types) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding C object CMakeFiles/scion_types__rosidl_generator_c.dir/rosidl_generator_c/scion_types/msg/detail/vision_object__functions.c.o\x1b[0m\n'}
+[4.604508] (scion_types) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding C object CMakeFiles/scion_types__rosidl_generator_c.dir/rosidl_generator_c/scion_types/msg/detail/zed_object__functions.c.o\x1b[0m\n'}
+[4.613856] (-) TimerEvent: {}
+[4.677880] (scion_types) StdoutLine: {'line': b'[ 13%] \x1b[32mBuilding C object CMakeFiles/scion_types__rosidl_generator_c.dir/rosidl_generator_c/scion_types/srv/detail/send_frame__functions.c.o\x1b[0m\n'}
+[4.678311] (scion_types) StdoutLine: {'line': b'[ 13%] \x1b[32mBuilding C object CMakeFiles/scion_types__rosidl_generator_c.dir/rosidl_generator_c/scion_types/srv/detail/can_command__functions.c.o\x1b[0m\n'}
+[4.713957] (-) TimerEvent: {}
+[4.764479] (scion_types) StdoutLine: {'line': b'[ 14%] \x1b[32m\x1b[1mLinking C shared library libscion_types__rosidl_generator_c.so\x1b[0m\n'}
+[4.814088] (-) TimerEvent: {}
+[4.817804] (scion_types) StdoutLine: {'line': b'[ 14%] Built target scion_types__rosidl_generator_c\n'}
+[4.834595] (scion_types) StdoutLine: {'line': b'[ 16%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[4.834945] (scion_types) StdoutLine: {'line': b'[ 16%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[4.914219] (-) TimerEvent: {}
+[5.014682] (-) TimerEvent: {}
+[5.115173] (-) TimerEvent: {}
+[5.215665] (-) TimerEvent: {}
+[5.316178] (-) TimerEvent: {}
+[5.334326] (scion_types) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target scion_types__rosidl_typesupport_cpp\x1b[0m\n'}
+[5.358529] (scion_types) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/scion_types__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/scion_types/msg/idea__type_support.cpp.o\x1b[0m\n'}
+[5.358981] (scion_types) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/scion_types__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/scion_types/msg/sub_state__type_support.cpp.o\x1b[0m\n'}
+[5.359140] (scion_types) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding CXX object CMakeFiles/scion_types__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/scion_types/msg/raw_data__type_support.cpp.o\x1b[0m\n'}
+[5.359255] (scion_types) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding CXX object CMakeFiles/scion_types__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/scion_types/msg/keypoint2_di__type_support.cpp.o\x1b[0m\n'}
+[5.359931] (scion_types) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/scion_types__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/scion_types/msg/pid_tuning__type_support.cpp.o\x1b[0m\n'}
+[5.360145] (scion_types) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding CXX object CMakeFiles/scion_types__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/scion_types/msg/datapoint__type_support.cpp.o\x1b[0m\n'}
+[5.360257] (scion_types) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding CXX object CMakeFiles/scion_types__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/scion_types/msg/can_frame__type_support.cpp.o\x1b[0m\n'}
+[5.366258] (scion_types) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding CXX object CMakeFiles/scion_types__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/scion_types/msg/vision_object__type_support.cpp.o\x1b[0m\n'}
+[5.416377] (-) TimerEvent: {}
+[5.517340] (-) TimerEvent: {}
+[5.617964] (-) TimerEvent: {}
+[5.718580] (-) TimerEvent: {}
+[5.785143] (scion_types) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target scion_types__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[5.815767] (scion_types) StdoutLine: {'line': b'[ 24%] \x1b[32mBuilding CXX object CMakeFiles/scion_types__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/scion_types/msg/detail/can_frame__type_support.cpp.o\x1b[0m\n'}
+[5.816289] (scion_types) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target scion_types__rosidl_typesupport_c\x1b[0m\n'}
+[5.818732] (-) TimerEvent: {}
+[5.831540] (scion_types) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/scion_types__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/scion_types/msg/zed_object__type_support.cpp.o\x1b[0m\n'}
+[5.832393] (scion_types) StdoutLine: {'line': b'[ 26%] \x1b[32mBuilding CXX object CMakeFiles/scion_types__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/scion_types/srv/can_command__type_support.cpp.o\x1b[0m\n'}
+[5.832637] (scion_types) StdoutLine: {'line': b'[ 26%] \x1b[32mBuilding CXX object CMakeFiles/scion_types__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/scion_types/msg/detail/datapoint__type_support.cpp.o\x1b[0m\n'}
+[5.832874] (scion_types) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/scion_types__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/scion_types/msg/detail/idea__type_support.cpp.o\x1b[0m\n'}
+[5.832996] (scion_types) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/scion_types__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/scion_types/srv/send_frame__type_support.cpp.o\x1b[0m\n'}
+[5.842911] (scion_types) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/scion_types__rosidl_typesupport_c.dir/rosidl_typesupport_c/scion_types/msg/can_frame__type_support.cpp.o\x1b[0m\n'}
+[5.851868] (scion_types) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/scion_types__rosidl_typesupport_c.dir/rosidl_typesupport_c/scion_types/msg/datapoint__type_support.cpp.o\x1b[0m\n'}
+[5.874060] (scion_types) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding CXX object CMakeFiles/scion_types__rosidl_typesupport_c.dir/rosidl_typesupport_c/scion_types/msg/idea__type_support.cpp.o\x1b[0m\n'}
+[5.874500] (scion_types) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding CXX object CMakeFiles/scion_types__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/scion_types/msg/detail/keypoint2_di__type_support.cpp.o\x1b[0m\n'}
+[5.880580] (scion_types) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target scion_types__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[5.897367] (scion_types) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding CXX object CMakeFiles/scion_types__rosidl_typesupport_c.dir/rosidl_typesupport_c/scion_types/msg/keypoint2_di__type_support.cpp.o\x1b[0m\n'}
+[5.902434] (scion_types) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/scion_types__rosidl_typesupport_c.dir/rosidl_typesupport_c/scion_types/msg/pid_tuning__type_support.cpp.o\x1b[0m\n'}
+[5.917621] (scion_types) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding CXX object CMakeFiles/scion_types__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/scion_types/msg/detail/dds_fastrtps/can_frame__type_support.cpp.o\x1b[0m\n'}
+[5.918856] (-) TimerEvent: {}
+[5.930395] (scion_types) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/scion_types__rosidl_typesupport_c.dir/rosidl_typesupport_c/scion_types/msg/raw_data__type_support.cpp.o\x1b[0m\n'}
+[5.951387] (scion_types) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/scion_types__rosidl_typesupport_c.dir/rosidl_typesupport_c/scion_types/msg/sub_state__type_support.cpp.o\x1b[0m\n'}
+[5.965009] (scion_types) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding CXX object CMakeFiles/scion_types__rosidl_typesupport_c.dir/rosidl_typesupport_c/scion_types/msg/vision_object__type_support.cpp.o\x1b[0m\n'}
+[5.983041] (scion_types) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/scion_types__rosidl_typesupport_c.dir/rosidl_typesupport_c/scion_types/msg/zed_object__type_support.cpp.o\x1b[0m\n'}
+[6.007514] (scion_types) StdoutLine: {'line': b'[ 39%] \x1b[32mBuilding CXX object CMakeFiles/scion_types__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/scion_types/msg/detail/dds_fastrtps/datapoint__type_support.cpp.o\x1b[0m\n'}
+[6.019102] (-) TimerEvent: {}
+[6.023287] (scion_types) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/scion_types__rosidl_typesupport_c.dir/rosidl_typesupport_c/scion_types/srv/can_command__type_support.cpp.o\x1b[0m\n'}
+[6.085610] (scion_types) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/scion_types__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/scion_types/msg/detail/pid_tuning__type_support.cpp.o\x1b[0m\n'}
+[6.086065] (scion_types) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/scion_types__rosidl_typesupport_c.dir/rosidl_typesupport_c/scion_types/srv/send_frame__type_support.cpp.o\x1b[0m\n'}
+[6.119312] (-) TimerEvent: {}
+[6.144975] (scion_types) StdoutLine: {'line': b'[ 43%] \x1b[32m\x1b[1mLinking CXX shared library libscion_types__rosidl_typesupport_c.so\x1b[0m\n'}
+[6.189170] (scion_types) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target scion_types__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[6.217941] (scion_types) StdoutLine: {'line': b'[ 43%] Built target scion_types__rosidl_typesupport_c\n'}
+[6.219482] (-) TimerEvent: {}
+[6.223911] (scion_types) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding C object CMakeFiles/scion_types__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/scion_types/msg/detail/can_frame__type_support.c.o\x1b[0m\n'}
+[6.236711] (scion_types) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object CMakeFiles/scion_types__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/scion_types/msg/detail/raw_data__type_support.cpp.o\x1b[0m\n'}
+[6.282321] (scion_types) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding C object CMakeFiles/scion_types__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/scion_types/msg/detail/datapoint__type_support.c.o\x1b[0m\n'}
+[6.316689] (scion_types) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding C object CMakeFiles/scion_types__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/scion_types/msg/detail/idea__type_support.c.o\x1b[0m\n'}
+[6.317330] (scion_types) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/scion_types__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/scion_types/msg/detail/sub_state__type_support.cpp.o\x1b[0m\n'}
+[6.319739] (-) TimerEvent: {}
+[6.322969] (scion_types) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/scion_types__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/scion_types/msg/detail/dds_fastrtps/idea__type_support.cpp.o\x1b[0m\n'}
+[6.323451] (scion_types) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/scion_types__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/scion_types/msg/detail/vision_object__type_support.cpp.o\x1b[0m\n'}
+[6.326473] (scion_types) StdoutLine: {'line': b'[ 51%] \x1b[32m\x1b[1mLinking CXX shared library libscion_types__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[6.342644] (scion_types) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding C object CMakeFiles/scion_types__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/scion_types/msg/detail/keypoint2_di__type_support.c.o\x1b[0m\n'}
+[6.379133] (scion_types) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding C object CMakeFiles/scion_types__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/scion_types/msg/detail/pid_tuning__type_support.c.o\x1b[0m\n'}
+[6.390619] (scion_types) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding CXX object CMakeFiles/scion_types__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/scion_types/msg/detail/zed_object__type_support.cpp.o\x1b[0m\n'}
+[6.395627] (scion_types) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding CXX object CMakeFiles/scion_types__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/scion_types/srv/detail/can_command__type_support.cpp.o\x1b[0m\n'}
+[6.396112] (scion_types) StdoutLine: {'line': b'[ 55%] Built target scion_types__rosidl_typesupport_cpp\n'}
+[6.414357] (scion_types) StdoutLine: {'line': b'[ 56%] \x1b[32mBuilding CXX object CMakeFiles/scion_types__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/scion_types/msg/detail/dds_fastrtps/keypoint2_di__type_support.cpp.o\x1b[0m\n'}
+[6.416413] (scion_types) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding C object CMakeFiles/scion_types__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/scion_types/msg/detail/raw_data__type_support.c.o\x1b[0m\n'}
+[6.419897] (-) TimerEvent: {}
+[6.448965] (scion_types) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding C object CMakeFiles/scion_types__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/scion_types/msg/detail/sub_state__type_support.c.o\x1b[0m\n'}
+[6.489523] (scion_types) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding C object CMakeFiles/scion_types__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/scion_types/msg/detail/vision_object__type_support.c.o\x1b[0m\n'}
+[6.507161] (scion_types) StdoutLine: {'line': b'[ 59%] \x1b[32mBuilding C object CMakeFiles/scion_types__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/scion_types/msg/detail/zed_object__type_support.c.o\x1b[0m\n'}
+[6.520085] (-) TimerEvent: {}
+[6.549433] (scion_types) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding C object CMakeFiles/scion_types__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/scion_types/srv/detail/can_command__type_support.c.o\x1b[0m\n'}
+[6.571166] (scion_types) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object CMakeFiles/scion_types__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/scion_types/msg/detail/dds_fastrtps/pid_tuning__type_support.cpp.o\x1b[0m\n'}
+[6.581101] (scion_types) StdoutLine: {'line': b'[ 62%] \x1b[32mBuilding CXX object CMakeFiles/scion_types__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/scion_types/msg/detail/dds_fastrtps/raw_data__type_support.cpp.o\x1b[0m\n'}
+[6.616044] (scion_types) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding C object CMakeFiles/scion_types__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/scion_types/srv/detail/send_frame__type_support.c.o\x1b[0m\n'}
+[6.620278] (-) TimerEvent: {}
+[6.640452] (scion_types) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding CXX object CMakeFiles/scion_types__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/scion_types/msg/detail/dds_fastrtps/sub_state__type_support.cpp.o\x1b[0m\n'}
+[6.680038] (scion_types) StdoutLine: {'line': b'[ 65%] \x1b[32m\x1b[1mLinking C shared library libscion_types__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[6.720484] (-) TimerEvent: {}
+[6.733034] (scion_types) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/scion_types__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/scion_types/msg/detail/dds_fastrtps/vision_object__type_support.cpp.o\x1b[0m\n'}
+[6.749411] (scion_types) StdoutLine: {'line': b'[ 66%] Built target scion_types__rosidl_typesupport_introspection_c\n'}
+[6.764930] (scion_types) StdoutLine: {'line': b'[ 68%] \x1b[32mBuilding CXX object CMakeFiles/scion_types__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/scion_types/srv/detail/send_frame__type_support.cpp.o\x1b[0m\n'}
+[6.765601] (scion_types) StdoutLine: {'line': b'[ 68%] \x1b[32mBuilding CXX object CMakeFiles/scion_types__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/scion_types/msg/detail/dds_fastrtps/zed_object__type_support.cpp.o\x1b[0m\n'}
+[6.804895] (scion_types) StdoutLine: {'line': b'[ 68%] \x1b[32mBuilding CXX object CMakeFiles/scion_types__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/scion_types/srv/detail/dds_fastrtps/can_command__type_support.cpp.o\x1b[0m\n'}
+[6.820689] (-) TimerEvent: {}
+[6.821425] (scion_types) StdoutLine: {'line': b'[ 69%] \x1b[32mBuilding CXX object CMakeFiles/scion_types__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/scion_types/srv/detail/dds_fastrtps/send_frame__type_support.cpp.o\x1b[0m\n'}
+[6.920900] (-) TimerEvent: {}
+[7.021504] (-) TimerEvent: {}
+[7.122126] (-) TimerEvent: {}
+[7.222661] (-) TimerEvent: {}
+[7.266584] (scion_types) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking CXX shared library libscion_types__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[7.322841] (-) TimerEvent: {}
+[7.393094] (scion_types) StdoutLine: {'line': b'[ 70%] Built target scion_types__rosidl_typesupport_introspection_cpp\n'}
+[7.422997] (-) TimerEvent: {}
+[7.523643] (-) TimerEvent: {}
+[7.536533] (scion_types) StdoutLine: {'line': b'[ 71%] \x1b[32m\x1b[1mLinking CXX shared library libscion_types__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[7.623812] (-) TimerEvent: {}
+[7.671983] (scion_types) StdoutLine: {'line': b'[ 71%] Built target scion_types__rosidl_typesupport_fastrtps_cpp\n'}
+[7.690917] (scion_types) StdoutLine: {'line': b'[ 72%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[7.723885] (-) TimerEvent: {}
+[7.824625] (-) TimerEvent: {}
+[7.925237] (-) TimerEvent: {}
+[8.025971] (-) TimerEvent: {}
+[8.126492] (-) TimerEvent: {}
+[8.227004] (-) TimerEvent: {}
+[8.327514] (-) TimerEvent: {}
+[8.428220] (-) TimerEvent: {}
+[8.528903] (-) TimerEvent: {}
+[8.629393] (-) TimerEvent: {}
+[8.704604] (scion_types) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target scion_types__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[8.729530] (-) TimerEvent: {}
+[8.741185] (scion_types) StdoutLine: {'line': b'[ 78%] \x1b[32mBuilding CXX object CMakeFiles/scion_types__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/scion_types/msg/detail/datapoint__type_support_c.cpp.o\x1b[0m\n'}
+[8.741892] (scion_types) StdoutLine: {'line': b'[ 78%] \x1b[32mBuilding CXX object CMakeFiles/scion_types__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/scion_types/msg/detail/keypoint2_di__type_support_c.cpp.o\x1b[0m\n'}
+[8.742067] (scion_types) StdoutLine: {'line': b'[ 78%] \x1b[32mBuilding CXX object CMakeFiles/scion_types__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/scion_types/msg/detail/idea__type_support_c.cpp.o\x1b[0m\n'}
+[8.742175] (scion_types) StdoutLine: {'line': b'[ 78%] \x1b[32mBuilding CXX object CMakeFiles/scion_types__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/scion_types/msg/detail/vision_object__type_support_c.cpp.o\x1b[0m\n'}
+[8.742274] (scion_types) StdoutLine: {'line': b'[ 78%] \x1b[32mBuilding CXX object CMakeFiles/scion_types__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/scion_types/msg/detail/can_frame__type_support_c.cpp.o\x1b[0m\n'}
+[8.742366] (scion_types) StdoutLine: {'line': b'[ 79%] \x1b[32mBuilding CXX object CMakeFiles/scion_types__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/scion_types/msg/detail/pid_tuning__type_support_c.cpp.o\x1b[0m\n'}
+[8.742455] (scion_types) StdoutLine: {'line': b'[ 79%] \x1b[32mBuilding CXX object CMakeFiles/scion_types__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/scion_types/msg/detail/zed_object__type_support_c.cpp.o\x1b[0m\n'}
+[8.742541] (scion_types) StdoutLine: {'line': b'[ 78%] \x1b[32mBuilding CXX object CMakeFiles/scion_types__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/scion_types/msg/detail/sub_state__type_support_c.cpp.o\x1b[0m\n'}
+[8.742627] (scion_types) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding CXX object CMakeFiles/scion_types__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/scion_types/msg/detail/raw_data__type_support_c.cpp.o\x1b[0m\n'}
+[8.743994] (scion_types) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding CXX object CMakeFiles/scion_types__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/scion_types/srv/detail/can_command__type_support_c.cpp.o\x1b[0m\n'}
+[8.744270] (scion_types) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding CXX object CMakeFiles/scion_types__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/scion_types/srv/detail/send_frame__type_support_c.cpp.o\x1b[0m\n'}
+[8.829719] (-) TimerEvent: {}
+[8.930357] (-) TimerEvent: {}
+[9.031013] (-) TimerEvent: {}
+[9.131678] (-) TimerEvent: {}
+[9.232338] (-) TimerEvent: {}
+[9.333024] (-) TimerEvent: {}
+[9.375636] (scion_types) StdoutLine: {'line': b'[ 83%] \x1b[32m\x1b[1mLinking CXX shared library libscion_types__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[9.433149] (-) TimerEvent: {}
+[9.498319] (scion_types) StdoutLine: {'line': b'[ 83%] Built target scion_types__rosidl_typesupport_fastrtps_c\n'}
+[9.514145] (scion_types) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target scion_types\x1b[0m\n'}
+[9.530698] (scion_types) StdoutLine: {'line': b'[ 83%] Built target scion_types\n'}
+[9.533189] (-) TimerEvent: {}
+[9.546908] (scion_types) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target scion_types__py\x1b[0m\n'}
+[9.567138] (scion_types) StdoutLine: {'line': b'[ 84%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[9.633339] (-) TimerEvent: {}
+[9.733968] (-) TimerEvent: {}
+[9.834623] (-) TimerEvent: {}
+[9.935091] (-) TimerEvent: {}
+[10.035584] (-) TimerEvent: {}
+[10.136080] (-) TimerEvent: {}
+[10.236600] (-) TimerEvent: {}
+[10.337249] (-) TimerEvent: {}
+[10.437867] (-) TimerEvent: {}
+[10.538494] (-) TimerEvent: {}
+[10.639175] (-) TimerEvent: {}
+[10.740011] (-) TimerEvent: {}
+[10.840605] (-) TimerEvent: {}
+[10.941223] (-) TimerEvent: {}
+[11.041828] (-) TimerEvent: {}
+[11.142430] (-) TimerEvent: {}
+[11.243060] (-) TimerEvent: {}
+[11.343718] (-) TimerEvent: {}
+[11.444373] (-) TimerEvent: {}
+[11.545028] (-) TimerEvent: {}
+[11.645673] (-) TimerEvent: {}
+[11.675537] (scion_types) StdoutLine: {'line': b'[ 84%] Built target scion_types__py\n'}
+[11.700525] (scion_types) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target scion_types__python\x1b[0m\n'}
+[11.745846] (-) TimerEvent: {}
+[11.751682] (scion_types) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/scion_types__python.dir/rosidl_generator_py/scion_types/msg/_sub_state_s.c.o\x1b[0m\n'}
+[11.752128] (scion_types) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/scion_types__python.dir/rosidl_generator_py/scion_types/msg/_vision_object_s.c.o\x1b[0m\n'}
+[11.752255] (scion_types) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/scion_types__python.dir/rosidl_generator_py/scion_types/msg/_pid_tuning_s.c.o\x1b[0m\n'}
+[11.752357] (scion_types) StdoutLine: {'line': b'[ 94%] \x1b[32mBuilding C object CMakeFiles/scion_types__python.dir/rosidl_generator_py/scion_types/msg/_raw_data_s.c.o\x1b[0m\n'}
+[11.752451] (scion_types) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/scion_types__python.dir/rosidl_generator_py/scion_types/msg/_zed_object_s.c.o\x1b[0m\n'}
+[11.752540] (scion_types) StdoutLine: {'line': b'[ 94%] \x1b[32mBuilding C object CMakeFiles/scion_types__python.dir/rosidl_generator_py/scion_types/srv/_send_frame_s.c.o\x1b[0m\n'}
+[11.752626] (scion_types) StdoutLine: {'line': b'[ 94%] \x1b[32mBuilding C object CMakeFiles/scion_types__python.dir/rosidl_generator_py/scion_types/msg/_idea_s.c.o\x1b[0m\n'}
+[11.752710] (scion_types) StdoutLine: {'line': b'[ 94%] \x1b[32mBuilding C object CMakeFiles/scion_types__python.dir/rosidl_generator_py/scion_types/srv/_can_command_s.c.o\x1b[0m\n'}
+[11.752838] (scion_types) StdoutLine: {'line': b'[ 94%] \x1b[32mBuilding C object CMakeFiles/scion_types__python.dir/rosidl_generator_py/scion_types/msg/_keypoint2_di_s.c.o\x1b[0m\n'}
+[11.752929] (scion_types) StdoutLine: {'line': b'[ 94%] \x1b[32mBuilding C object CMakeFiles/scion_types__python.dir/rosidl_generator_py/scion_types/msg/_can_frame_s.c.o\x1b[0m\n'}
+[11.753116] (scion_types) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/scion_types__python.dir/rosidl_generator_py/scion_types/msg/_datapoint_s.c.o\x1b[0m\n'}
+[11.846033] (-) TimerEvent: {}
+[11.938530] (scion_types) StdoutLine: {'line': b'[ 95%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/scion_types/libscion_types__python.so\x1b[0m\n'}
+[11.946121] (-) TimerEvent: {}
+[12.008989] (scion_types) StdoutLine: {'line': b'[ 95%] Built target scion_types__python\n'}
+[12.025293] (scion_types) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target scion_types__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[12.025721] (scion_types) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target scion_types__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[12.025835] (scion_types) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target scion_types__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[12.046276] (-) TimerEvent: {}
+[12.055575] (scion_types) StdoutLine: {'line': b'[ 96%] \x1b[32mBuilding C object CMakeFiles/scion_types__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/scion_types/_scion_types_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[12.055953] (scion_types) StdoutLine: {'line': b'[ 97%] \x1b[32mBuilding C object CMakeFiles/scion_types__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/scion_types/_scion_types_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[12.056081] (scion_types) StdoutLine: {'line': b'[ 97%] \x1b[32mBuilding C object CMakeFiles/scion_types__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/scion_types/_scion_types_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[12.146438] (-) TimerEvent: {}
+[12.225300] (scion_types) StdoutLine: {'line': b'[ 99%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/scion_types/scion_types_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so\x1b[0m\n'}
+[12.225740] (scion_types) StdoutLine: {'line': b'[ 99%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/scion_types/scion_types_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so\x1b[0m\n'}
+[12.225860] (scion_types) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library rosidl_generator_py/scion_types/scion_types_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so\x1b[0m\n'}
+[12.246606] (-) TimerEvent: {}
+[12.276908] (scion_types) StdoutLine: {'line': b'[100%] Built target scion_types__rosidl_typesupport_c__pyext\n'}
+[12.277300] (scion_types) StdoutLine: {'line': b'[100%] Built target scion_types__rosidl_typesupport_introspection_c__pyext\n'}
+[12.313080] (scion_types) StdoutLine: {'line': b'[100%] Built target scion_types__rosidl_typesupport_fastrtps_c__pyext\n'}
+[12.339661] (scion_types) CommandEnded: {'returncode': 0}
+[12.347084] (-) TimerEvent: {}
+[12.448362] (-) TimerEvent: {}
+[12.549418] (-) TimerEvent: {}
+[12.624944] (scion_types) JobProgress: {'identifier': 'scion_types', 'progress': 'install'}
+[12.647483] (scion_types) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/mechatronics/core_dependencies/scion_types/build/scion_types'], 'cwd': '/home/mechatronics/core_dependencies/scion_types/build/scion_types', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'mechatronics'), ('SSH_AGENT_PID', '2402'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64:'), ('HOME', '/home/mechatronics'), ('OLDPWD', '/home/mechatronics'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '2168'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/mechatronics/can_server/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'mechatronics'), ('_', '/usr/bin/colcon'), ('JOURNAL_STREAM', '7:61687'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'mechatronics'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/mechatronics/can_server/install/unified_can_driver/bin:/opt/ros/foxy/bin:/usr/local/cuda-11.4/bin:/home/mechatronics/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/scripts/autogen:/usr/scripts/convenience:/usr/scripts/github:/usr/scripts/machine_setup:/usr/scripts/ros:/usr/scripts/shortcuts:/usr/scripts/string_manipulations:/usr/scripts/system:/usr/local/bin/robot:/usr/scripts/autogen:/usr/scripts/convenience:/usr/scripts/github:/usr/scripts/machine_setup:/usr/scripts/ros:/usr/scripts/shortcuts:/usr/scripts/string_manipulations:/usr/scripts/system:/usr/scripts:/usr/local/include/robot_libraries:/usr/local/bin/scripts:/usr/local/bin/robot/c:/usr/local/bin/robot/py:/usr/local/bin/robot_tests/c:/usr/local/bin/robot_tests/py'), ('SESSION_MANAGER', 'local/jetsonorin:@/tmp/.ICE-unix/2437,unix/jetsonorin:/tmp/.ICE-unix/2437'), ('INVOCATION_ID', '84aa822d2c4e42ba8e5baac8557a03a6'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/f957e0a5_d889_4182_933f_a82470add527'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.568'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/mechatronics/can_server/install/unified_can_driver:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/mechatronics/core_dependencies/scion_types/build/scion_types'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/mechatronics/can_server/install/unified_can_driver:/opt/ros/foxy')]), 'shell': False}
+[12.654472] (-) TimerEvent: {}
+[12.670462] (scion_types) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[12.671018] (scion_types) StdoutLine: {'line': b'-- Installing: /home/mechatronics/core_dependencies/scion_types/install/scion_types/share/ament_index/resource_index/rosidl_interfaces/scion_types\n'}
+[12.671437] (scion_types) StdoutLine: {'line': b'-- Installing: /home/mechatronics/core_dependencies/scion_types/install/scion_types/include/scion_types\n'}
+[12.671833] (scion_types) StdoutLine: {'line': b'-- Installing: /home/mechatronics/core_dependencies/scion_types/install/scion_types/include/scion_types/srv\n'}
+[12.672176] (scion_types) StdoutLine: {'line': b'-- Installing: /home/mechatronics/core_dependencies/scion_types/install/scion_types/include/scion_types/srv/can_command.h\n'}
+[12.672506] (scion_types) StdoutLine: {'line': b'-- Installing: /home/mechatronics/core_dependencies/scion_types/install/scion_types/include/scion_types/srv/send_frame.h\n'}
+[12.672855] (scion_types) StdoutLine: {'line': b'-- Installing: /home/mechatronics/core_dependencies/scion_types/install/scion_types/include/scion_types/srv/detail\n'}
+[12.673235] (scion_types) StdoutLine: {'line': b'-- Installing: /home/mechatronics/core_dependencies/scion_types/install/scion_types/include/scion_types/srv/detail/can_command__type_support.h\n'}
+[12.673605] (scion_types) StdoutLine: {'line': b'-- Installing: /home/mechatronics/core_dependencies/scion_types/install/scion_types/include/scion_types/srv/detail/send_frame__functions.c\n'}
+[12.673920] (scion_types) StdoutLine: {'line': b'-- Installing: /home/mechatronics/core_dependencies/scion_types/install/scion_types/include/scion_types/srv/detail/send_frame__struct.h\n'}
+[12.674247] (scion_types) StdoutLine: {'line': b'-- Installing: /home/mechatronics/core_dependencies/scion_types/install/scion_types/include/scion_types/srv/detail/can_command__functions.c\n'}
+[12.674592] (scion_types) StdoutLine: {'line': b'-- Installing: /home/mechatronics/core_dependencies/scion_types/install/scion_types/include/scion_types/srv/detail/can_command__functions.h\n'}
+[12.674916] (scion_types) StdoutLine: {'line': b'-- Installing: /home/mechatronics/core_dependencies/scion_types/install/scion_types/include/scion_types/srv/detail/can_command__struct.h\n'}
+[12.675238] (scion_types) StdoutLine: {'line': b'-- Installing: /home/mechatronics/core_dependencies/scion_types/install/scion_types/include/scion_types/srv/detail/send_frame__functions.h\n'}
+[12.675584] (scion_types) StdoutLine: {'line': b'-- Installing: /home/mechatronics/core_dependencies/scion_types/install/scion_types/include/scion_types/srv/detail/send_frame__type_support.h\n'}
+[12.675900] (scion_types) StdoutLine: {'line': b'-- Installing: /home/mechatronics/core_dependencies/scion_types/install/scion_types/include/scion_types/msg\n'}
+[12.676217] (scion_types) StdoutLine: {'line': b'-- Installing: /home/mechatronics/core_dependencies/scion_types/install/scion_types/include/scion_types/msg/can_frame.h\n'}
+[12.676527] (scion_types) StdoutLine: {'line': b'-- Installing: /home/mechatronics/core_dependencies/scion_types/install/scion_types/include/scion_types/msg/sub_state.h\n'}
+[12.676873] (scion_types) StdoutLine: {'line': b'-- Installing: /home/mechatronics/core_dependencies/scion_types/install/scion_types/include/scion_types/msg/rosidl_generator_c__visibility_control.h\n'}
+[12.677195] (scion_types) StdoutLine: {'line': b'-- Installing: /home/mechatronics/core_dependencies/scion_types/install/scion_types/include/scion_types/msg/zed_object.h\n'}
+[12.677519] (scion_types) StdoutLine: {'line': b'-- Installing: /home/mechatronics/core_dependencies/scion_types/install/scion_types/include/scion_types/msg/keypoint2_di.h\n'}
+[12.677871] (scion_types) StdoutLine: {'line': b'-- Installing: /home/mechatronics/core_dependencies/scion_types/install/scion_types/include/scion_types/msg/detail\n'}
+[12.678225] (scion_types) StdoutLine: {'line': b'-- Installing: /home/mechatronics/core_dependencies/scion_types/install/scion_types/include/scion_types/msg/detail/idea__functions.h\n'}
+[12.678595] (scion_types) StdoutLine: {'line': b'-- Installing: /home/mechatronics/core_dependencies/scion_types/install/scion_types/include/scion_types/msg/detail/can_frame__functions.h\n'}
+[12.678913] (scion_types) StdoutLine: {'line': b'-- Installing: /home/mechatronics/core_dependencies/scion_types/install/scion_types/include/scion_types/msg/detail/pid_tuning__functions.c\n'}
+[12.679229] (scion_types) StdoutLine: {'line': b'-- Installing: /home/mechatronics/core_dependencies/scion_types/install/scion_types/include/scion_types/msg/detail/zed_object__type_support.h\n'}
+[12.679585] (scion_types) StdoutLine: {'line': b'-- Installing: /home/mechatronics/core_dependencies/scion_types/install/scion_types/include/scion_types/msg/detail/datapoint__struct.h\n'}
+[12.679927] (scion_types) StdoutLine: {'line': b'-- Installing: /home/mechatronics/core_dependencies/scion_types/install/scion_types/include/scion_types/msg/detail/raw_data__type_support.h\n'}
+[12.680205] (scion_types) StdoutLine: {'line': b'-- Installing: /home/mechatronics/core_dependencies/scion_types/install/scion_types/include/scion_types/msg/detail/sub_state__struct.h\n'}
+[12.680514] (scion_types) StdoutLine: {'line': b'-- Installing: /home/mechatronics/core_dependencies/scion_types/install/scion_types/include/scion_types/msg/detail/raw_data__functions.h\n'}
+[12.680820] (scion_types) StdoutLine: {'line': b'-- Installing: /home/mechatronics/core_dependencies/scion_types/install/scion_types/include/scion_types/msg/detail/can_frame__functions.c\n'}
+[12.681067] (scion_types) StdoutLine: {'line': b'-- Installing: /home/mechatronics/core_dependencies/scion_types/install/scion_types/include/scion_types/msg/detail/keypoint2_di__type_support.h\n'}
+[12.681440] (scion_types) StdoutLine: {'line': b'-- Installing: /home/mechatronics/core_dependencies/scion_types/install/scion_types/include/scion_types/msg/detail/pid_tuning__struct.h\n'}
+[12.681763] (scion_types) StdoutLine: {'line': b'-- Installing: /home/mechatronics/core_dependencies/scion_types/install/scion_types/include/scion_types/msg/detail/idea__struct.h\n'}
+[12.682140] (scion_types) StdoutLine: {'line': b'-- Installing: /home/mechatronics/core_dependencies/scion_types/install/scion_types/include/scion_types/msg/detail/sub_state__functions.c\n'}
+[12.682463] (scion_types) StdoutLine: {'line': b'-- Installing: /home/mechatronics/core_dependencies/scion_types/install/scion_types/include/scion_types/msg/detail/zed_object__functions.c\n'}
+[12.682870] (scion_types) StdoutLine: {'line': b'-- Installing: /home/mechatronics/core_dependencies/scion_types/install/scion_types/include/scion_types/msg/detail/zed_object__functions.h\n'}
+[12.683226] (scion_types) StdoutLine: {'line': b'-- Installing: /home/mechatronics/core_dependencies/scion_types/install/scion_types/include/scion_types/msg/detail/can_frame__type_support.h\n'}
+[12.683510] (scion_types) StdoutLine: {'line': b'-- Installing: /home/mechatronics/core_dependencies/scion_types/install/scion_types/include/scion_types/msg/detail/can_frame__struct.h\n'}
+[12.683791] (scion_types) StdoutLine: {'line': b'-- Installing: /home/mechatronics/core_dependencies/scion_types/install/scion_types/include/scion_types/msg/detail/keypoint2_di__functions.h\n'}
+[12.684017] (scion_types) StdoutLine: {'line': b'-- Installing: /home/mechatronics/core_dependencies/scion_types/install/scion_types/include/scion_types/msg/detail/keypoint2_di__struct.h\n'}
+[12.684403] (scion_types) StdoutLine: {'line': b'-- Installing: /home/mechatronics/core_dependencies/scion_types/install/scion_types/include/scion_types/msg/detail/idea__functions.c\n'}
+[12.684728] (scion_types) StdoutLine: {'line': b'-- Installing: /home/mechatronics/core_dependencies/scion_types/install/scion_types/include/scion_types/msg/detail/raw_data__functions.c\n'}
+[12.685782] (scion_types) StdoutLine: {'line': b'-- Installing: /home/mechatronics/core_dependencies/scion_types/install/scion_types/include/scion_types/msg/detail/datapoint__functions.h\n'}
+[12.686123] (scion_types) StdoutLine: {'line': b'-- Installing: /home/mechatronics/core_dependencies/scion_types/install/scion_types/include/scion_types/msg/detail/keypoint2_di__functions.c\n'}
+[12.686454] (scion_types) StdoutLine: {'line': b'-- Installing: /home/mechatronics/core_dependencies/scion_types/install/scion_types/include/scion_types/msg/detail/pid_tuning__functions.h\n'}
+[12.686780] (scion_types) StdoutLine: {'line': b'-- Installing: /home/mechatronics/core_dependencies/scion_types/install/scion_types/include/scion_types/msg/detail/sub_state__type_support.h\n'}
+[12.687058] (scion_types) StdoutLine: {'line': b'-- Installing: /home/mechatronics/core_dependencies/scion_types/install/scion_types/include/scion_types/msg/detail/vision_object__type_support.h\n'}
+[12.687325] (scion_types) StdoutLine: {'line': b'-- Installing: /home/mechatronics/core_dependencies/scion_types/install/scion_types/include/scion_types/msg/detail/zed_object__struct.h\n'}
+[12.687545] (scion_types) StdoutLine: {'line': b'-- Installing: /home/mechatronics/core_dependencies/scion_types/install/scion_types/include/scion_types/msg/detail/raw_data__struct.h\n'}
+[12.687759] (scion_types) StdoutLine: {'line': b'-- Installing: /home/mechatronics/core_dependencies/scion_types/install/scion_types/include/scion_types/msg/detail/vision_object__functions.h\n'}
+[12.688158] (scion_types) StdoutLine: {'line': b'-- Installing: /home/mechatronics/core_dependencies/scion_types/install/scion_types/include/scion_types/msg/detail/vision_object__struct.h\n'}
+[12.688488] (scion_types) StdoutLine: {'line': b'-- Installing: /home/mechatronics/core_dependencies/scion_types/install/scion_types/include/scion_types/msg/detail/sub_state__functions.h\n'}
+[12.688906] (scion_types) StdoutLine: {'line': b'-- Installing: /home/mechatronics/core_dependencies/scion_types/install/scion_types/include/scion_types/msg/detail/datapoint__type_support.h\n'}
+[12.689151] (scion_types) StdoutLine: {'line': b'-- Installing: /home/mechatronics/core_dependencies/scion_types/install/scion_types/include/scion_types/msg/detail/datapoint__functions.c\n'}
+[12.689476] (scion_types) StdoutLine: {'line': b'-- Installing: /home/mechatronics/core_dependencies/scion_types/install/scion_types/include/scion_types/msg/detail/pid_tuning__type_support.h\n'}
+[12.689801] (scion_types) StdoutLine: {'line': b'-- Installing: /home/mechatronics/core_dependencies/scion_types/install/scion_types/include/scion_types/msg/detail/vision_object__functions.c\n'}
+[12.690167] (scion_types) StdoutLine: {'line': b'-- Installing: /home/mechatronics/core_dependencies/scion_types/install/scion_types/include/scion_types/msg/detail/idea__type_support.h\n'}
+[12.690480] (scion_types) StdoutLine: {'line': b'-- Installing: /home/mechatronics/core_dependencies/scion_types/install/scion_types/include/scion_types/msg/datapoint.h\n'}
+[12.690797] (scion_types) StdoutLine: {'line': b'-- Installing: /home/mechatronics/core_dependencies/scion_types/install/scion_types/include/scion_types/msg/vision_object.h\n'}
+[12.691116] (scion_types) StdoutLine: {'line': b'-- Installing: /home/mechatronics/core_dependencies/scion_types/install/scion_types/include/scion_types/msg/pid_tuning.h\n'}
+[12.691437] (scion_types) StdoutLine: {'line': b'-- Installing: /home/mechatronics/core_dependencies/scion_types/install/scion_types/include/scion_types/msg/raw_data.h\n'}
+[12.691783] (scion_types) StdoutLine: {'line': b'-- Installing: /home/mechatronics/core_dependencies/scion_types/install/scion_types/include/scion_types/msg/idea.h\n'}
+[12.692013] (scion_types) StdoutLine: {'line': b'-- Installing: /home/mechatronics/core_dependencies/scion_types/install/scion_types/share/scion_types/environment/library_path.sh\n'}
+[12.692285] (scion_types) StdoutLine: {'line': b'-- Installing: /home/mechatronics/core_dependencies/scion_types/install/scion_types/share/scion_types/environment/library_path.dsv\n'}
+[12.692505] (scion_types) StdoutLine: {'line': b'-- Installing: /home/mechatronics/core_dependencies/scion_types/install/scion_types/lib/libscion_types__rosidl_generator_c.so\n'}
+[12.692833] (scion_types) StdoutLine: {'line': b'-- Set runtime path of "/home/mechatronics/core_dependencies/scion_types/install/scion_types/lib/libscion_types__rosidl_generator_c.so" to ""\n'}
+[12.693071] (scion_types) StdoutLine: {'line': b'-- Up-to-date: /home/mechatronics/core_dependencies/scion_types/install/scion_types/include/scion_types\n'}
+[12.693489] (scion_types) StdoutLine: {'line': b'-- Up-to-date: /home/mechatronics/core_dependencies/scion_types/install/scion_types/include/scion_types/srv\n'}
+[12.693792] (scion_types) StdoutLine: {'line': b'-- Up-to-date: /home/mechatronics/core_dependencies/scion_types/install/scion_types/include/scion_types/srv/detail\n'}
+[12.694098] (scion_types) StdoutLine: {'line': b'-- Installing: /home/mechatronics/core_dependencies/scion_types/install/scion_types/include/scion_types/srv/detail/can_command__rosidl_typesupport_fastrtps_c.h\n'}
+[12.694424] (scion_types) StdoutLine: {'line': b'-- Installing: /home/mechatronics/core_dependencies/scion_types/install/scion_types/include/scion_types/srv/detail/send_frame__rosidl_typesupport_fastrtps_c.h\n'}
+[12.694779] (scion_types) StdoutLine: {'line': b'-- Up-to-date: /home/mechatronics/core_dependencies/scion_types/install/scion_types/include/scion_types/msg\n'}
+[12.695121] (scion_types) StdoutLine: {'line': b'-- Installing: /home/mechatronics/core_dependencies/scion_types/install/scion_types/include/scion_types/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[12.695440] (scion_types) StdoutLine: {'line': b'-- Up-to-date: /home/mechatronics/core_dependencies/scion_types/install/scion_types/include/scion_types/msg/detail\n'}
+[12.695776] (scion_types) StdoutLine: {'line': b'-- Installing: /home/mechatronics/core_dependencies/scion_types/install/scion_types/include/scion_types/msg/detail/can_frame__rosidl_typesupport_fastrtps_c.h\n'}
+[12.696098] (scion_types) StdoutLine: {'line': b'-- Installing: /home/mechatronics/core_dependencies/scion_types/install/scion_types/include/scion_types/msg/detail/raw_data__rosidl_typesupport_fastrtps_c.h\n'}
+[12.696423] (scion_types) StdoutLine: {'line': b'-- Installing: /home/mechatronics/core_dependencies/scion_types/install/scion_types/include/scion_types/msg/detail/zed_object__rosidl_typesupport_fastrtps_c.h\n'}
+[12.696803] (scion_types) StdoutLine: {'line': b'-- Installing: /home/mechatronics/core_dependencies/scion_types/install/scion_types/include/scion_types/msg/detail/vision_object__rosidl_typesupport_fastrtps_c.h\n'}
+[12.697137] (scion_types) StdoutLine: {'line': b'-- Installing: /home/mechatronics/core_dependencies/scion_types/install/scion_types/include/scion_types/msg/detail/idea__rosidl_typesupport_fastrtps_c.h\n'}
+[12.697494] (scion_types) StdoutLine: {'line': b'-- Installing: /home/mechatronics/core_dependencies/scion_types/install/scion_types/include/scion_types/msg/detail/keypoint2_di__rosidl_typesupport_fastrtps_c.h\n'}
+[12.697784] (scion_types) StdoutLine: {'line': b'-- Installing: /home/mechatronics/core_dependencies/scion_types/install/scion_types/include/scion_types/msg/detail/pid_tuning__rosidl_typesupport_fastrtps_c.h\n'}
+[12.698072] (scion_types) StdoutLine: {'line': b'-- Installing: /home/mechatronics/core_dependencies/scion_types/install/scion_types/include/scion_types/msg/detail/datapoint__rosidl_typesupport_fastrtps_c.h\n'}
+[12.698341] (scion_types) StdoutLine: {'line': b'-- Installing: /home/mechatronics/core_dependencies/scion_types/install/scion_types/include/scion_types/msg/detail/sub_state__rosidl_typesupport_fastrtps_c.h\n'}
+[12.698634] (scion_types) StdoutLine: {'line': b'-- Installing: /home/mechatronics/core_dependencies/scion_types/install/scion_types/lib/libscion_types__rosidl_typesupport_fastrtps_c.so\n'}
+[12.698924] (scion_types) StdoutLine: {'line': b'-- Set runtime path of "/home/mechatronics/core_dependencies/scion_types/install/scion_types/lib/libscion_types__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[12.699222] (scion_types) StdoutLine: {'line': b'-- Up-to-date: /home/mechatronics/core_dependencies/scion_types/install/scion_types/include/scion_types\n'}
+[12.699519] (scion_types) StdoutLine: {'line': b'-- Up-to-date: /home/mechatronics/core_dependencies/scion_types/install/scion_types/include/scion_types/srv\n'}
+[12.699811] (scion_types) StdoutLine: {'line': b'-- Up-to-date: /home/mechatronics/core_dependencies/scion_types/install/scion_types/include/scion_types/srv/detail\n'}
+[12.700112] (scion_types) StdoutLine: {'line': b'-- Installing: /home/mechatronics/core_dependencies/scion_types/install/scion_types/include/scion_types/srv/detail/can_command__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[12.700359] (scion_types) StdoutLine: {'line': b'-- Installing: /home/mechatronics/core_dependencies/scion_types/install/scion_types/include/scion_types/srv/detail/send_frame__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[12.700617] (scion_types) StdoutLine: {'line': b'-- Installing: /home/mechatronics/core_dependencies/scion_types/install/scion_types/include/scion_types/srv/detail/dds_fastrtps\n'}
+[12.700905] (scion_types) StdoutLine: {'line': b'-- Up-to-date: /home/mechatronics/core_dependencies/scion_types/install/scion_types/include/scion_types/msg\n'}
+[12.701119] (scion_types) StdoutLine: {'line': b'-- Up-to-date: /home/mechatronics/core_dependencies/scion_types/install/scion_types/include/scion_types/msg/detail\n'}
+[12.701397] (scion_types) StdoutLine: {'line': b'-- Installing: /home/mechatronics/core_dependencies/scion_types/install/scion_types/include/scion_types/msg/detail/keypoint2_di__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[12.701690] (scion_types) StdoutLine: {'line': b'-- Installing: /home/mechatronics/core_dependencies/scion_types/install/scion_types/include/scion_types/msg/detail/sub_state__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[12.701974] (scion_types) StdoutLine: {'line': b'-- Installing: /home/mechatronics/core_dependencies/scion_types/install/scion_types/include/scion_types/msg/detail/raw_data__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[12.702255] (scion_types) StdoutLine: {'line': b'-- Installing: /home/mechatronics/core_dependencies/scion_types/install/scion_types/include/scion_types/msg/detail/datapoint__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[12.702566] (scion_types) StdoutLine: {'line': b'-- Installing: /home/mechatronics/core_dependencies/scion_types/install/scion_types/include/scion_types/msg/detail/dds_fastrtps\n'}
+[12.702858] (scion_types) StdoutLine: {'line': b'-- Installing: /home/mechatronics/core_dependencies/scion_types/install/scion_types/include/scion_types/msg/detail/zed_object__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[12.703113] (scion_types) StdoutLine: {'line': b'-- Installing: /home/mechatronics/core_dependencies/scion_types/install/scion_types/include/scion_types/msg/detail/can_frame__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[12.703407] (scion_types) StdoutLine: {'line': b'-- Installing: /home/mechatronics/core_dependencies/scion_types/install/scion_types/include/scion_types/msg/detail/vision_object__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[12.703670] (scion_types) StdoutLine: {'line': b'-- Installing: /home/mechatronics/core_dependencies/scion_types/install/scion_types/include/scion_types/msg/detail/idea__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[12.703901] (scion_types) StdoutLine: {'line': b'-- Installing: /home/mechatronics/core_dependencies/scion_types/install/scion_types/include/scion_types/msg/detail/pid_tuning__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[12.704165] (scion_types) StdoutLine: {'line': b'-- Installing: /home/mechatronics/core_dependencies/scion_types/install/scion_types/include/scion_types/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[12.704401] (scion_types) StdoutLine: {'line': b'-- Installing: /home/mechatronics/core_dependencies/scion_types/install/scion_types/lib/libscion_types__rosidl_typesupport_fastrtps_cpp.so\n'}
+[12.704665] (scion_types) StdoutLine: {'line': b'-- Set runtime path of "/home/mechatronics/core_dependencies/scion_types/install/scion_types/lib/libscion_types__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[12.704964] (scion_types) StdoutLine: {'line': b'-- Up-to-date: /home/mechatronics/core_dependencies/scion_types/install/scion_types/include/scion_types\n'}
+[12.705229] (scion_types) StdoutLine: {'line': b'-- Up-to-date: /home/mechatronics/core_dependencies/scion_types/install/scion_types/include/scion_types/srv\n'}
+[12.705493] (scion_types) StdoutLine: {'line': b'-- Up-to-date: /home/mechatronics/core_dependencies/scion_types/install/scion_types/include/scion_types/srv/detail\n'}
+[12.705765] (scion_types) StdoutLine: {'line': b'-- Installing: /home/mechatronics/core_dependencies/scion_types/install/scion_types/include/scion_types/srv/detail/can_command__type_support.c\n'}
+[12.706042] (scion_types) StdoutLine: {'line': b'-- Installing: /home/mechatronics/core_dependencies/scion_types/install/scion_types/include/scion_types/srv/detail/send_frame__type_support.c\n'}
+[12.706236] (scion_types) StdoutLine: {'line': b'-- Installing: /home/mechatronics/core_dependencies/scion_types/install/scion_types/include/scion_types/srv/detail/send_frame__rosidl_typesupport_introspection_c.h\n'}
+[12.706470] (scion_types) StdoutLine: {'line': b'-- Installing: /home/mechatronics/core_dependencies/scion_types/install/scion_types/include/scion_types/srv/detail/can_command__rosidl_typesupport_introspection_c.h\n'}
+[12.706677] (scion_types) StdoutLine: {'line': b'-- Up-to-date: /home/mechatronics/core_dependencies/scion_types/install/scion_types/include/scion_types/msg\n'}
+[12.706858] (scion_types) StdoutLine: {'line': b'-- Up-to-date: /home/mechatronics/core_dependencies/scion_types/install/scion_types/include/scion_types/msg/detail\n'}
+[12.707115] (scion_types) StdoutLine: {'line': b'-- Installing: /home/mechatronics/core_dependencies/scion_types/install/scion_types/include/scion_types/msg/detail/keypoint2_di__rosidl_typesupport_introspection_c.h\n'}
+[12.707294] (scion_types) StdoutLine: {'line': b'-- Installing: /home/mechatronics/core_dependencies/scion_types/install/scion_types/include/scion_types/msg/detail/vision_object__rosidl_typesupport_introspection_c.h\n'}
+[12.707463] (scion_types) StdoutLine: {'line': b'-- Installing: /home/mechatronics/core_dependencies/scion_types/install/scion_types/include/scion_types/msg/detail/can_frame__type_support.c\n'}
+[12.707704] (scion_types) StdoutLine: {'line': b'-- Installing: /home/mechatronics/core_dependencies/scion_types/install/scion_types/include/scion_types/msg/detail/raw_data__rosidl_typesupport_introspection_c.h\n'}
+[12.707915] (scion_types) StdoutLine: {'line': b'-- Installing: /home/mechatronics/core_dependencies/scion_types/install/scion_types/include/scion_types/msg/detail/pid_tuning__rosidl_typesupport_introspection_c.h\n'}
+[12.708092] (scion_types) StdoutLine: {'line': b'-- Installing: /home/mechatronics/core_dependencies/scion_types/install/scion_types/include/scion_types/msg/detail/idea__rosidl_typesupport_introspection_c.h\n'}
+[12.708306] (scion_types) StdoutLine: {'line': b'-- Installing: /home/mechatronics/core_dependencies/scion_types/install/scion_types/include/scion_types/msg/detail/keypoint2_di__type_support.c\n'}
+[12.708475] (scion_types) StdoutLine: {'line': b'-- Installing: /home/mechatronics/core_dependencies/scion_types/install/scion_types/include/scion_types/msg/detail/can_frame__rosidl_typesupport_introspection_c.h\n'}
+[12.708642] (scion_types) StdoutLine: {'line': b'-- Installing: /home/mechatronics/core_dependencies/scion_types/install/scion_types/include/scion_types/msg/detail/raw_data__type_support.c\n'}
+[12.708828] (scion_types) StdoutLine: {'line': b'-- Installing: /home/mechatronics/core_dependencies/scion_types/install/scion_types/include/scion_types/msg/detail/datapoint__rosidl_typesupport_introspection_c.h\n'}
+[12.709004] (scion_types) StdoutLine: {'line': b'-- Installing: /home/mechatronics/core_dependencies/scion_types/install/scion_types/include/scion_types/msg/detail/vision_object__type_support.c\n'}
+[12.709170] (scion_types) StdoutLine: {'line': b'-- Installing: /home/mechatronics/core_dependencies/scion_types/install/scion_types/include/scion_types/msg/detail/sub_state__rosidl_typesupport_introspection_c.h\n'}
+[12.709336] (scion_types) StdoutLine: {'line': b'-- Installing: /home/mechatronics/core_dependencies/scion_types/install/scion_types/include/scion_types/msg/detail/datapoint__type_support.c\n'}
+[12.709498] (scion_types) StdoutLine: {'line': b'-- Installing: /home/mechatronics/core_dependencies/scion_types/install/scion_types/include/scion_types/msg/detail/sub_state__type_support.c\n'}
+[12.709660] (scion_types) StdoutLine: {'line': b'-- Installing: /home/mechatronics/core_dependencies/scion_types/install/scion_types/include/scion_types/msg/detail/pid_tuning__type_support.c\n'}
+[12.709821] (scion_types) StdoutLine: {'line': b'-- Installing: /home/mechatronics/core_dependencies/scion_types/install/scion_types/include/scion_types/msg/detail/zed_object__rosidl_typesupport_introspection_c.h\n'}
+[12.709983] (scion_types) StdoutLine: {'line': b'-- Installing: /home/mechatronics/core_dependencies/scion_types/install/scion_types/include/scion_types/msg/detail/zed_object__type_support.c\n'}
+[12.710142] (scion_types) StdoutLine: {'line': b'-- Installing: /home/mechatronics/core_dependencies/scion_types/install/scion_types/include/scion_types/msg/detail/idea__type_support.c\n'}
+[12.710303] (scion_types) StdoutLine: {'line': b'-- Installing: /home/mechatronics/core_dependencies/scion_types/install/scion_types/include/scion_types/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[12.710500] (scion_types) StdoutLine: {'line': b'-- Installing: /home/mechatronics/core_dependencies/scion_types/install/scion_types/lib/libscion_types__rosidl_typesupport_introspection_c.so\n'}
+[12.710667] (scion_types) StdoutLine: {'line': b'-- Set runtime path of "/home/mechatronics/core_dependencies/scion_types/install/scion_types/lib/libscion_types__rosidl_typesupport_introspection_c.so" to ""\n'}
+[12.710830] (scion_types) StdoutLine: {'line': b'-- Installing: /home/mechatronics/core_dependencies/scion_types/install/scion_types/lib/libscion_types__rosidl_typesupport_c.so\n'}
+[12.711028] (scion_types) StdoutLine: {'line': b'-- Set runtime path of "/home/mechatronics/core_dependencies/scion_types/install/scion_types/lib/libscion_types__rosidl_typesupport_c.so" to ""\n'}
+[12.711193] (scion_types) StdoutLine: {'line': b'-- Up-to-date: /home/mechatronics/core_dependencies/scion_types/install/scion_types/include/scion_types\n'}
+[12.711356] (scion_types) StdoutLine: {'line': b'-- Up-to-date: /home/mechatronics/core_dependencies/scion_types/install/scion_types/include/scion_types/srv\n'}
+[12.711517] (scion_types) StdoutLine: {'line': b'-- Installing: /home/mechatronics/core_dependencies/scion_types/install/scion_types/include/scion_types/srv/send_frame.hpp\n'}
+[12.711681] (scion_types) StdoutLine: {'line': b'-- Up-to-date: /home/mechatronics/core_dependencies/scion_types/install/scion_types/include/scion_types/srv/detail\n'}
+[12.711844] (scion_types) StdoutLine: {'line': b'-- Installing: /home/mechatronics/core_dependencies/scion_types/install/scion_types/include/scion_types/srv/detail/send_frame__struct.hpp\n'}
+[12.712006] (scion_types) StdoutLine: {'line': b'-- Installing: /home/mechatronics/core_dependencies/scion_types/install/scion_types/include/scion_types/srv/detail/can_command__type_support.hpp\n'}
+[12.712164] (scion_types) StdoutLine: {'line': b'-- Installing: /home/mechatronics/core_dependencies/scion_types/install/scion_types/include/scion_types/srv/detail/send_frame__builder.hpp\n'}
+[12.712323] (scion_types) StdoutLine: {'line': b'-- Installing: /home/mechatronics/core_dependencies/scion_types/install/scion_types/include/scion_types/srv/detail/can_command__traits.hpp\n'}
+[12.712484] (scion_types) StdoutLine: {'line': b'-- Installing: /home/mechatronics/core_dependencies/scion_types/install/scion_types/include/scion_types/srv/detail/can_command__builder.hpp\n'}
+[12.712645] (scion_types) StdoutLine: {'line': b'-- Installing: /home/mechatronics/core_dependencies/scion_types/install/scion_types/include/scion_types/srv/detail/send_frame__traits.hpp\n'}
+[12.712828] (scion_types) StdoutLine: {'line': b'-- Installing: /home/mechatronics/core_dependencies/scion_types/install/scion_types/include/scion_types/srv/detail/send_frame__type_support.hpp\n'}
+[12.712987] (scion_types) StdoutLine: {'line': b'-- Installing: /home/mechatronics/core_dependencies/scion_types/install/scion_types/include/scion_types/srv/detail/can_command__struct.hpp\n'}
+[12.713125] (scion_types) StdoutLine: {'line': b'-- Installing: /home/mechatronics/core_dependencies/scion_types/install/scion_types/include/scion_types/srv/can_command.hpp\n'}
+[12.713263] (scion_types) StdoutLine: {'line': b'-- Up-to-date: /home/mechatronics/core_dependencies/scion_types/install/scion_types/include/scion_types/msg\n'}
+[12.713402] (scion_types) StdoutLine: {'line': b'-- Installing: /home/mechatronics/core_dependencies/scion_types/install/scion_types/include/scion_types/msg/pid_tuning.hpp\n'}
+[12.713540] (scion_types) StdoutLine: {'line': b'-- Installing: /home/mechatronics/core_dependencies/scion_types/install/scion_types/include/scion_types/msg/zed_object.hpp\n'}
+[12.713676] (scion_types) StdoutLine: {'line': b'-- Installing: /home/mechatronics/core_dependencies/scion_types/install/scion_types/include/scion_types/msg/sub_state.hpp\n'}
+[12.713813] (scion_types) StdoutLine: {'line': b'-- Installing: /home/mechatronics/core_dependencies/scion_types/install/scion_types/include/scion_types/msg/can_frame.hpp\n'}
+[12.713966] (scion_types) StdoutLine: {'line': b'-- Up-to-date: /home/mechatronics/core_dependencies/scion_types/install/scion_types/include/scion_types/msg/detail\n'}
+[12.714105] (scion_types) StdoutLine: {'line': b'-- Installing: /home/mechatronics/core_dependencies/scion_types/install/scion_types/include/scion_types/msg/detail/idea__builder.hpp\n'}
+[12.714243] (scion_types) StdoutLine: {'line': b'-- Installing: /home/mechatronics/core_dependencies/scion_types/install/scion_types/include/scion_types/msg/detail/can_frame__traits.hpp\n'}
+[12.714382] (scion_types) StdoutLine: {'line': b'-- Installing: /home/mechatronics/core_dependencies/scion_types/install/scion_types/include/scion_types/msg/detail/can_frame__struct.hpp\n'}
+[12.714520] (scion_types) StdoutLine: {'line': b'-- Installing: /home/mechatronics/core_dependencies/scion_types/install/scion_types/include/scion_types/msg/detail/sub_state__traits.hpp\n'}
+[12.714657] (scion_types) StdoutLine: {'line': b'-- Installing: /home/mechatronics/core_dependencies/scion_types/install/scion_types/include/scion_types/msg/detail/idea__type_support.hpp\n'}
+[12.714793] (scion_types) StdoutLine: {'line': b'-- Installing: /home/mechatronics/core_dependencies/scion_types/install/scion_types/include/scion_types/msg/detail/idea__traits.hpp\n'}
+[12.714942] (scion_types) StdoutLine: {'line': b'-- Installing: /home/mechatronics/core_dependencies/scion_types/install/scion_types/include/scion_types/msg/detail/zed_object__type_support.hpp\n'}
+[12.715084] (scion_types) StdoutLine: {'line': b'-- Installing: /home/mechatronics/core_dependencies/scion_types/install/scion_types/include/scion_types/msg/detail/keypoint2_di__type_support.hpp\n'}
+[12.715223] (scion_types) StdoutLine: {'line': b'-- Installing: /home/mechatronics/core_dependencies/scion_types/install/scion_types/include/scion_types/msg/detail/raw_data__type_support.hpp\n'}
+[12.715364] (scion_types) StdoutLine: {'line': b'-- Installing: /home/mechatronics/core_dependencies/scion_types/install/scion_types/include/scion_types/msg/detail/raw_data__builder.hpp\n'}
+[12.715503] (scion_types) StdoutLine: {'line': b'-- Installing: /home/mechatronics/core_dependencies/scion_types/install/scion_types/include/scion_types/msg/detail/can_frame__type_support.hpp\n'}
+[12.715669] (scion_types) StdoutLine: {'line': b'-- Installing: /home/mechatronics/core_dependencies/scion_types/install/scion_types/include/scion_types/msg/detail/keypoint2_di__traits.hpp\n'}
+[12.715811] (scion_types) StdoutLine: {'line': b'-- Installing: /home/mechatronics/core_dependencies/scion_types/install/scion_types/include/scion_types/msg/detail/datapoint__traits.hpp\n'}
+[12.715951] (scion_types) StdoutLine: {'line': b'-- Installing: /home/mechatronics/core_dependencies/scion_types/install/scion_types/include/scion_types/msg/detail/can_frame__builder.hpp\n'}
+[12.716088] (scion_types) StdoutLine: {'line': b'-- Installing: /home/mechatronics/core_dependencies/scion_types/install/scion_types/include/scion_types/msg/detail/raw_data__traits.hpp\n'}
+[12.716225] (scion_types) StdoutLine: {'line': b'-- Installing: /home/mechatronics/core_dependencies/scion_types/install/scion_types/include/scion_types/msg/detail/datapoint__type_support.hpp\n'}
+[12.716362] (scion_types) StdoutLine: {'line': b'-- Installing: /home/mechatronics/core_dependencies/scion_types/install/scion_types/include/scion_types/msg/detail/pid_tuning__struct.hpp\n'}
+[12.716498] (scion_types) StdoutLine: {'line': b'-- Installing: /home/mechatronics/core_dependencies/scion_types/install/scion_types/include/scion_types/msg/detail/keypoint2_di__builder.hpp\n'}
+[12.716634] (scion_types) StdoutLine: {'line': b'-- Installing: /home/mechatronics/core_dependencies/scion_types/install/scion_types/include/scion_types/msg/detail/datapoint__struct.hpp\n'}
+[12.716796] (scion_types) StdoutLine: {'line': b'-- Installing: /home/mechatronics/core_dependencies/scion_types/install/scion_types/include/scion_types/msg/detail/zed_object__builder.hpp\n'}
+[12.716960] (scion_types) StdoutLine: {'line': b'-- Installing: /home/mechatronics/core_dependencies/scion_types/install/scion_types/include/scion_types/msg/detail/sub_state__builder.hpp\n'}
+[12.717095] (scion_types) StdoutLine: {'line': b'-- Installing: /home/mechatronics/core_dependencies/scion_types/install/scion_types/include/scion_types/msg/detail/vision_object__traits.hpp\n'}
+[12.717227] (scion_types) StdoutLine: {'line': b'-- Installing: /home/mechatronics/core_dependencies/scion_types/install/scion_types/include/scion_types/msg/detail/sub_state__struct.hpp\n'}
+[12.717358] (scion_types) StdoutLine: {'line': b'-- Installing: /home/mechatronics/core_dependencies/scion_types/install/scion_types/include/scion_types/msg/detail/raw_data__struct.hpp\n'}
+[12.717489] (scion_types) StdoutLine: {'line': b'-- Installing: /home/mechatronics/core_dependencies/scion_types/install/scion_types/include/scion_types/msg/detail/vision_object__struct.hpp\n'}
+[12.717618] (scion_types) StdoutLine: {'line': b'-- Installing: /home/mechatronics/core_dependencies/scion_types/install/scion_types/include/scion_types/msg/detail/idea__struct.hpp\n'}
+[12.717747] (scion_types) StdoutLine: {'line': b'-- Installing: /home/mechatronics/core_dependencies/scion_types/install/scion_types/include/scion_types/msg/detail/pid_tuning__type_support.hpp\n'}
+[12.717877] (scion_types) StdoutLine: {'line': b'-- Installing: /home/mechatronics/core_dependencies/scion_types/install/scion_types/include/scion_types/msg/detail/sub_state__type_support.hpp\n'}
+[12.718005] (scion_types) StdoutLine: {'line': b'-- Installing: /home/mechatronics/core_dependencies/scion_types/install/scion_types/include/scion_types/msg/detail/vision_object__type_support.hpp\n'}
+[12.718133] (scion_types) StdoutLine: {'line': b'-- Installing: /home/mechatronics/core_dependencies/scion_types/install/scion_types/include/scion_types/msg/detail/zed_object__struct.hpp\n'}
+[12.718260] (scion_types) StdoutLine: {'line': b'-- Installing: /home/mechatronics/core_dependencies/scion_types/install/scion_types/include/scion_types/msg/detail/datapoint__builder.hpp\n'}
+[12.718388] (scion_types) StdoutLine: {'line': b'-- Installing: /home/mechatronics/core_dependencies/scion_types/install/scion_types/include/scion_types/msg/detail/vision_object__builder.hpp\n'}
+[12.718518] (scion_types) StdoutLine: {'line': b'-- Installing: /home/mechatronics/core_dependencies/scion_types/install/scion_types/include/scion_types/msg/detail/zed_object__traits.hpp\n'}
+[12.718658] (scion_types) StdoutLine: {'line': b'-- Installing: /home/mechatronics/core_dependencies/scion_types/install/scion_types/include/scion_types/msg/detail/pid_tuning__builder.hpp\n'}
+[12.718789] (scion_types) StdoutLine: {'line': b'-- Installing: /home/mechatronics/core_dependencies/scion_types/install/scion_types/include/scion_types/msg/detail/keypoint2_di__struct.hpp\n'}
+[12.718918] (scion_types) StdoutLine: {'line': b'-- Installing: /home/mechatronics/core_dependencies/scion_types/install/scion_types/include/scion_types/msg/detail/pid_tuning__traits.hpp\n'}
+[12.719046] (scion_types) StdoutLine: {'line': b'-- Installing: /home/mechatronics/core_dependencies/scion_types/install/scion_types/include/scion_types/msg/keypoint2_di.hpp\n'}
+[12.719175] (scion_types) StdoutLine: {'line': b'-- Installing: /home/mechatronics/core_dependencies/scion_types/install/scion_types/include/scion_types/msg/vision_object.hpp\n'}
+[12.719304] (scion_types) StdoutLine: {'line': b'-- Installing: /home/mechatronics/core_dependencies/scion_types/install/scion_types/include/scion_types/msg/idea.hpp\n'}
+[12.719432] (scion_types) StdoutLine: {'line': b'-- Installing: /home/mechatronics/core_dependencies/scion_types/install/scion_types/include/scion_types/msg/datapoint.hpp\n'}
+[12.719559] (scion_types) StdoutLine: {'line': b'-- Installing: /home/mechatronics/core_dependencies/scion_types/install/scion_types/include/scion_types/msg/raw_data.hpp\n'}
+[12.719716] (scion_types) StdoutLine: {'line': b'-- Installing: /home/mechatronics/core_dependencies/scion_types/install/scion_types/include/scion_types/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[12.719860] (scion_types) StdoutLine: {'line': b'-- Up-to-date: /home/mechatronics/core_dependencies/scion_types/install/scion_types/include/scion_types\n'}
+[12.719991] (scion_types) StdoutLine: {'line': b'-- Up-to-date: /home/mechatronics/core_dependencies/scion_types/install/scion_types/include/scion_types/srv\n'}
+[12.720121] (scion_types) StdoutLine: {'line': b'-- Up-to-date: /home/mechatronics/core_dependencies/scion_types/install/scion_types/include/scion_types/srv/detail\n'}
+[12.720250] (scion_types) StdoutLine: {'line': b'-- Installing: /home/mechatronics/core_dependencies/scion_types/install/scion_types/include/scion_types/srv/detail/can_command__type_support.cpp\n'}
+[12.720379] (scion_types) StdoutLine: {'line': b'-- Installing: /home/mechatronics/core_dependencies/scion_types/install/scion_types/include/scion_types/srv/detail/send_frame__rosidl_typesupport_introspection_cpp.hpp\n'}
+[12.720508] (scion_types) StdoutLine: {'line': b'-- Installing: /home/mechatronics/core_dependencies/scion_types/install/scion_types/include/scion_types/srv/detail/send_frame__type_support.cpp\n'}
+[12.720637] (scion_types) StdoutLine: {'line': b'-- Installing: /home/mechatronics/core_dependencies/scion_types/install/scion_types/include/scion_types/srv/detail/can_command__rosidl_typesupport_introspection_cpp.hpp\n'}
+[12.720792] (scion_types) StdoutLine: {'line': b'-- Up-to-date: /home/mechatronics/core_dependencies/scion_types/install/scion_types/include/scion_types/msg\n'}
+[12.720924] (scion_types) StdoutLine: {'line': b'-- Up-to-date: /home/mechatronics/core_dependencies/scion_types/install/scion_types/include/scion_types/msg/detail\n'}
+[12.721041] (scion_types) StdoutLine: {'line': b'-- Installing: /home/mechatronics/core_dependencies/scion_types/install/scion_types/include/scion_types/msg/detail/datapoint__rosidl_typesupport_introspection_cpp.hpp\n'}
+[12.721157] (scion_types) StdoutLine: {'line': b'-- Installing: /home/mechatronics/core_dependencies/scion_types/install/scion_types/include/scion_types/msg/detail/vision_object__type_support.cpp\n'}
+[12.721273] (scion_types) StdoutLine: {'line': b'-- Installing: /home/mechatronics/core_dependencies/scion_types/install/scion_types/include/scion_types/msg/detail/zed_object__type_support.cpp\n'}
+[12.721387] (scion_types) StdoutLine: {'line': b'-- Installing: /home/mechatronics/core_dependencies/scion_types/install/scion_types/include/scion_types/msg/detail/pid_tuning__rosidl_typesupport_introspection_cpp.hpp\n'}
+[12.721502] (scion_types) StdoutLine: {'line': b'-- Installing: /home/mechatronics/core_dependencies/scion_types/install/scion_types/include/scion_types/msg/detail/raw_data__type_support.cpp\n'}
+[12.721617] (scion_types) StdoutLine: {'line': b'-- Installing: /home/mechatronics/core_dependencies/scion_types/install/scion_types/include/scion_types/msg/detail/keypoint2_di__rosidl_typesupport_introspection_cpp.hpp\n'}
+[12.721732] (scion_types) StdoutLine: {'line': b'-- Installing: /home/mechatronics/core_dependencies/scion_types/install/scion_types/include/scion_types/msg/detail/keypoint2_di__type_support.cpp\n'}
+[12.721847] (scion_types) StdoutLine: {'line': b'-- Installing: /home/mechatronics/core_dependencies/scion_types/install/scion_types/include/scion_types/msg/detail/vision_object__rosidl_typesupport_introspection_cpp.hpp\n'}
+[12.721962] (scion_types) StdoutLine: {'line': b'-- Installing: /home/mechatronics/core_dependencies/scion_types/install/scion_types/include/scion_types/msg/detail/idea__rosidl_typesupport_introspection_cpp.hpp\n'}
+[12.722077] (scion_types) StdoutLine: {'line': b'-- Installing: /home/mechatronics/core_dependencies/scion_types/install/scion_types/include/scion_types/msg/detail/zed_object__rosidl_typesupport_introspection_cpp.hpp\n'}
+[12.722203] (scion_types) StdoutLine: {'line': b'-- Installing: /home/mechatronics/core_dependencies/scion_types/install/scion_types/include/scion_types/msg/detail/datapoint__type_support.cpp\n'}
+[12.722321] (scion_types) StdoutLine: {'line': b'-- Installing: /home/mechatronics/core_dependencies/scion_types/install/scion_types/include/scion_types/msg/detail/can_frame__type_support.cpp\n'}
+[12.722449] (scion_types) StdoutLine: {'line': b'-- Installing: /home/mechatronics/core_dependencies/scion_types/install/scion_types/include/scion_types/msg/detail/pid_tuning__type_support.cpp\n'}
+[12.722565] (scion_types) StdoutLine: {'line': b'-- Installing: /home/mechatronics/core_dependencies/scion_types/install/scion_types/include/scion_types/msg/detail/sub_state__type_support.cpp\n'}
+[12.722681] (scion_types) StdoutLine: {'line': b'-- Installing: /home/mechatronics/core_dependencies/scion_types/install/scion_types/include/scion_types/msg/detail/sub_state__rosidl_typesupport_introspection_cpp.hpp\n'}
+[12.722796] (scion_types) StdoutLine: {'line': b'-- Installing: /home/mechatronics/core_dependencies/scion_types/install/scion_types/include/scion_types/msg/detail/raw_data__rosidl_typesupport_introspection_cpp.hpp\n'}
+[12.722911] (scion_types) StdoutLine: {'line': b'-- Installing: /home/mechatronics/core_dependencies/scion_types/install/scion_types/include/scion_types/msg/detail/can_frame__rosidl_typesupport_introspection_cpp.hpp\n'}
+[12.723026] (scion_types) StdoutLine: {'line': b'-- Installing: /home/mechatronics/core_dependencies/scion_types/install/scion_types/include/scion_types/msg/detail/idea__type_support.cpp\n'}
+[12.723163] (scion_types) StdoutLine: {'line': b'-- Installing: /home/mechatronics/core_dependencies/scion_types/install/scion_types/lib/libscion_types__rosidl_typesupport_introspection_cpp.so\n'}
+[12.723281] (scion_types) StdoutLine: {'line': b'-- Set runtime path of "/home/mechatronics/core_dependencies/scion_types/install/scion_types/lib/libscion_types__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[12.723399] (scion_types) StdoutLine: {'line': b'-- Installing: /home/mechatronics/core_dependencies/scion_types/install/scion_types/lib/libscion_types__rosidl_typesupport_cpp.so\n'}
+[12.723517] (scion_types) StdoutLine: {'line': b'-- Set runtime path of "/home/mechatronics/core_dependencies/scion_types/install/scion_types/lib/libscion_types__rosidl_typesupport_cpp.so" to ""\n'}
+[12.723633] (scion_types) StdoutLine: {'line': b'-- Installing: /home/mechatronics/core_dependencies/scion_types/install/scion_types/share/scion_types/environment/pythonpath.sh\n'}
+[12.723748] (scion_types) StdoutLine: {'line': b'-- Installing: /home/mechatronics/core_dependencies/scion_types/install/scion_types/share/scion_types/environment/pythonpath.dsv\n'}
+[12.723863] (scion_types) StdoutLine: {'line': b'-- Installing: /home/mechatronics/core_dependencies/scion_types/install/scion_types/lib/python3.8/site-packages/scion_types/__init__.py\n'}
+[12.753766] (scion_types) StdoutLine: {'line': b"Compiling '/home/mechatronics/core_dependencies/scion_types/install/scion_types/lib/python3.8/site-packages/scion_types/__init__.py'...\n"}
+[12.754494] (-) TimerEvent: {}
+[12.761233] (scion_types) StdoutLine: {'line': b'-- Installing: /home/mechatronics/core_dependencies/scion_types/install/scion_types/lib/python3.8/site-packages/scion_types/msg\n'}
+[12.761679] (scion_types) StdoutLine: {'line': b'-- Installing: /home/mechatronics/core_dependencies/scion_types/install/scion_types/lib/python3.8/site-packages/scion_types/msg/_vision_object.py\n'}
+[12.761983] (scion_types) StdoutLine: {'line': b'-- Installing: /home/mechatronics/core_dependencies/scion_types/install/scion_types/lib/python3.8/site-packages/scion_types/msg/_sub_state_s.c\n'}
+[12.762258] (scion_types) StdoutLine: {'line': b'-- Installing: /home/mechatronics/core_dependencies/scion_types/install/scion_types/lib/python3.8/site-packages/scion_types/msg/_raw_data.py\n'}
+[12.762520] (scion_types) StdoutLine: {'line': b'-- Installing: /home/mechatronics/core_dependencies/scion_types/install/scion_types/lib/python3.8/site-packages/scion_types/msg/_can_frame.py\n'}
+[12.762750] (scion_types) StdoutLine: {'line': b'-- Installing: /home/mechatronics/core_dependencies/scion_types/install/scion_types/lib/python3.8/site-packages/scion_types/msg/_pid_tuning_s.c\n'}
+[12.763013] (scion_types) StdoutLine: {'line': b'-- Installing: /home/mechatronics/core_dependencies/scion_types/install/scion_types/lib/python3.8/site-packages/scion_types/msg/_datapoint.py\n'}
+[12.763228] (scion_types) StdoutLine: {'line': b'-- Installing: /home/mechatronics/core_dependencies/scion_types/install/scion_types/lib/python3.8/site-packages/scion_types/msg/__init__.py\n'}
+[12.763474] (scion_types) StdoutLine: {'line': b'-- Installing: /home/mechatronics/core_dependencies/scion_types/install/scion_types/lib/python3.8/site-packages/scion_types/msg/_raw_data_s.c\n'}
+[12.763756] (scion_types) StdoutLine: {'line': b'-- Installing: /home/mechatronics/core_dependencies/scion_types/install/scion_types/lib/python3.8/site-packages/scion_types/msg/_vision_object_s.c\n'}
+[12.764054] (scion_types) StdoutLine: {'line': b'-- Installing: /home/mechatronics/core_dependencies/scion_types/install/scion_types/lib/python3.8/site-packages/scion_types/msg/_zed_object_s.c\n'}
+[12.764311] (scion_types) StdoutLine: {'line': b'-- Installing: /home/mechatronics/core_dependencies/scion_types/install/scion_types/lib/python3.8/site-packages/scion_types/msg/_idea_s.c\n'}
+[12.764607] (scion_types) StdoutLine: {'line': b'-- Installing: /home/mechatronics/core_dependencies/scion_types/install/scion_types/lib/python3.8/site-packages/scion_types/msg/_pid_tuning.py\n'}
+[12.764937] (scion_types) StdoutLine: {'line': b'-- Installing: /home/mechatronics/core_dependencies/scion_types/install/scion_types/lib/python3.8/site-packages/scion_types/msg/_can_frame_s.c\n'}
+[12.765206] (scion_types) StdoutLine: {'line': b'-- Installing: /home/mechatronics/core_dependencies/scion_types/install/scion_types/lib/python3.8/site-packages/scion_types/msg/_keypoint2_di_s.c\n'}
+[12.765419] (scion_types) StdoutLine: {'line': b'-- Installing: /home/mechatronics/core_dependencies/scion_types/install/scion_types/lib/python3.8/site-packages/scion_types/msg/_zed_object.py\n'}
+[12.765672] (scion_types) StdoutLine: {'line': b'-- Installing: /home/mechatronics/core_dependencies/scion_types/install/scion_types/lib/python3.8/site-packages/scion_types/msg/_datapoint_s.c\n'}
+[12.765873] (scion_types) StdoutLine: {'line': b'-- Installing: /home/mechatronics/core_dependencies/scion_types/install/scion_types/lib/python3.8/site-packages/scion_types/msg/_idea.py\n'}
+[12.766067] (scion_types) StdoutLine: {'line': b'-- Installing: /home/mechatronics/core_dependencies/scion_types/install/scion_types/lib/python3.8/site-packages/scion_types/msg/_keypoint2_di.py\n'}
+[12.766323] (scion_types) StdoutLine: {'line': b'-- Installing: /home/mechatronics/core_dependencies/scion_types/install/scion_types/lib/python3.8/site-packages/scion_types/msg/_sub_state.py\n'}
+[12.766603] (scion_types) StdoutLine: {'line': b'-- Installing: /home/mechatronics/core_dependencies/scion_types/install/scion_types/lib/python3.8/site-packages/scion_types/srv\n'}
+[12.766874] (scion_types) StdoutLine: {'line': b'-- Installing: /home/mechatronics/core_dependencies/scion_types/install/scion_types/lib/python3.8/site-packages/scion_types/srv/_can_command_s.c\n'}
+[12.767098] (scion_types) StdoutLine: {'line': b'-- Installing: /home/mechatronics/core_dependencies/scion_types/install/scion_types/lib/python3.8/site-packages/scion_types/srv/_can_command.py\n'}
+[12.767372] (scion_types) StdoutLine: {'line': b'-- Installing: /home/mechatronics/core_dependencies/scion_types/install/scion_types/lib/python3.8/site-packages/scion_types/srv/__init__.py\n'}
+[12.767648] (scion_types) StdoutLine: {'line': b'-- Installing: /home/mechatronics/core_dependencies/scion_types/install/scion_types/lib/python3.8/site-packages/scion_types/srv/_send_frame.py\n'}
+[12.767867] (scion_types) StdoutLine: {'line': b'-- Installing: /home/mechatronics/core_dependencies/scion_types/install/scion_types/lib/python3.8/site-packages/scion_types/srv/_send_frame_s.c\n'}
+[12.768125] (scion_types) StdoutLine: {'line': b'-- Installing: /home/mechatronics/core_dependencies/scion_types/install/scion_types/lib/python3.8/site-packages/scion_types/scion_types_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so\n'}
+[12.768398] (scion_types) StdoutLine: {'line': b'-- Set runtime path of "/home/mechatronics/core_dependencies/scion_types/install/scion_types/lib/python3.8/site-packages/scion_types/scion_types_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so" to ""\n'}
+[12.768623] (scion_types) StdoutLine: {'line': b'-- Installing: /home/mechatronics/core_dependencies/scion_types/install/scion_types/lib/python3.8/site-packages/scion_types/scion_types_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so\n'}
+[12.768969] (scion_types) StdoutLine: {'line': b'-- Set runtime path of "/home/mechatronics/core_dependencies/scion_types/install/scion_types/lib/python3.8/site-packages/scion_types/scion_types_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so" to ""\n'}
+[12.769230] (scion_types) StdoutLine: {'line': b'-- Installing: /home/mechatronics/core_dependencies/scion_types/install/scion_types/lib/python3.8/site-packages/scion_types/scion_types_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so\n'}
+[12.769484] (scion_types) StdoutLine: {'line': b'-- Set runtime path of "/home/mechatronics/core_dependencies/scion_types/install/scion_types/lib/python3.8/site-packages/scion_types/scion_types_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so" to ""\n'}
+[12.769772] (scion_types) StdoutLine: {'line': b'-- Installing: /home/mechatronics/core_dependencies/scion_types/install/scion_types/lib/libscion_types__python.so\n'}
+[12.770020] (scion_types) StdoutLine: {'line': b'-- Set runtime path of "/home/mechatronics/core_dependencies/scion_types/install/scion_types/lib/libscion_types__python.so" to ""\n'}
+[12.770270] (scion_types) StdoutLine: {'line': b'-- Installing: /home/mechatronics/core_dependencies/scion_types/install/scion_types/share/scion_types/msg/CanFrame.idl\n'}
+[12.770523] (scion_types) StdoutLine: {'line': b'-- Installing: /home/mechatronics/core_dependencies/scion_types/install/scion_types/share/scion_types/msg/Datapoint.idl\n'}
+[12.770774] (scion_types) StdoutLine: {'line': b'-- Installing: /home/mechatronics/core_dependencies/scion_types/install/scion_types/share/scion_types/msg/Idea.idl\n'}
+[12.771061] (scion_types) StdoutLine: {'line': b'-- Installing: /home/mechatronics/core_dependencies/scion_types/install/scion_types/share/scion_types/msg/Keypoint2Di.idl\n'}
+[12.771312] (scion_types) StdoutLine: {'line': b'-- Installing: /home/mechatronics/core_dependencies/scion_types/install/scion_types/share/scion_types/msg/PidTuning.idl\n'}
+[12.771567] (scion_types) StdoutLine: {'line': b'-- Installing: /home/mechatronics/core_dependencies/scion_types/install/scion_types/share/scion_types/msg/RawData.idl\n'}
+[12.771854] (scion_types) StdoutLine: {'line': b'-- Installing: /home/mechatronics/core_dependencies/scion_types/install/scion_types/share/scion_types/msg/SubState.idl\n'}
+[12.772113] (scion_types) StdoutLine: {'line': b'-- Installing: /home/mechatronics/core_dependencies/scion_types/install/scion_types/share/scion_types/msg/VisionObject.idl\n'}
+[12.772366] (scion_types) StdoutLine: {'line': b'-- Installing: /home/mechatronics/core_dependencies/scion_types/install/scion_types/share/scion_types/msg/ZedObject.idl\n'}
+[12.772653] (scion_types) StdoutLine: {'line': b'-- Installing: /home/mechatronics/core_dependencies/scion_types/install/scion_types/share/scion_types/srv/CanCommand.idl\n'}
+[12.772931] (scion_types) StdoutLine: {'line': b'-- Installing: /home/mechatronics/core_dependencies/scion_types/install/scion_types/share/scion_types/srv/SendFrame.idl\n'}
+[12.773191] (scion_types) StdoutLine: {'line': b'-- Installing: /home/mechatronics/core_dependencies/scion_types/install/scion_types/share/scion_types/msg/CanFrame.msg\n'}
+[12.773473] (scion_types) StdoutLine: {'line': b'-- Installing: /home/mechatronics/core_dependencies/scion_types/install/scion_types/share/scion_types/msg/Datapoint.msg\n'}
+[12.773716] (scion_types) StdoutLine: {'line': b'-- Installing: /home/mechatronics/core_dependencies/scion_types/install/scion_types/share/scion_types/msg/Idea.msg\n'}
+[12.773996] (scion_types) StdoutLine: {'line': b'-- Installing: /home/mechatronics/core_dependencies/scion_types/install/scion_types/share/scion_types/msg/Keypoint2Di.msg\n'}
+[12.774272] (scion_types) StdoutLine: {'line': b'-- Installing: /home/mechatronics/core_dependencies/scion_types/install/scion_types/share/scion_types/msg/PidTuning.msg\n'}
+[12.774508] (scion_types) StdoutLine: {'line': b'-- Installing: /home/mechatronics/core_dependencies/scion_types/install/scion_types/share/scion_types/msg/RawData.msg\n'}
+[12.774747] (scion_types) StdoutLine: {'line': b'-- Installing: /home/mechatronics/core_dependencies/scion_types/install/scion_types/share/scion_types/msg/SubState.msg\n'}
+[12.774977] (scion_types) StdoutLine: {'line': b'-- Installing: /home/mechatronics/core_dependencies/scion_types/install/scion_types/share/scion_types/msg/VisionObject.msg\n'}
+[12.775205] (scion_types) StdoutLine: {'line': b'-- Installing: /home/mechatronics/core_dependencies/scion_types/install/scion_types/share/scion_types/msg/ZedObject.msg\n'}
+[12.775433] (scion_types) StdoutLine: {'line': b'-- Installing: /home/mechatronics/core_dependencies/scion_types/install/scion_types/share/scion_types/srv/CanCommand.srv\n'}
+[12.775659] (scion_types) StdoutLine: {'line': b'-- Installing: /home/mechatronics/core_dependencies/scion_types/install/scion_types/share/scion_types/srv/CanCommand_Request.msg\n'}
+[12.775885] (scion_types) StdoutLine: {'line': b'-- Installing: /home/mechatronics/core_dependencies/scion_types/install/scion_types/share/scion_types/srv/CanCommand_Response.msg\n'}
+[12.776145] (scion_types) StdoutLine: {'line': b'-- Installing: /home/mechatronics/core_dependencies/scion_types/install/scion_types/share/scion_types/srv/SendFrame.srv\n'}
+[12.776368] (scion_types) StdoutLine: {'line': b'-- Installing: /home/mechatronics/core_dependencies/scion_types/install/scion_types/share/scion_types/srv/SendFrame_Request.msg\n'}
+[12.776590] (scion_types) StdoutLine: {'line': b'-- Installing: /home/mechatronics/core_dependencies/scion_types/install/scion_types/share/scion_types/srv/SendFrame_Response.msg\n'}
+[12.776886] (scion_types) StdoutLine: {'line': b'-- Installing: /home/mechatronics/core_dependencies/scion_types/install/scion_types/share/ament_index/resource_index/package_run_dependencies/scion_types\n'}
+[12.777240] (scion_types) StdoutLine: {'line': b'-- Installing: /home/mechatronics/core_dependencies/scion_types/install/scion_types/share/ament_index/resource_index/parent_prefix_path/scion_types\n'}
+[12.777506] (scion_types) StdoutLine: {'line': b'-- Installing: /home/mechatronics/core_dependencies/scion_types/install/scion_types/share/scion_types/environment/ament_prefix_path.sh\n'}
+[12.777754] (scion_types) StdoutLine: {'line': b'-- Installing: /home/mechatronics/core_dependencies/scion_types/install/scion_types/share/scion_types/environment/ament_prefix_path.dsv\n'}
+[12.777991] (scion_types) StdoutLine: {'line': b'-- Installing: /home/mechatronics/core_dependencies/scion_types/install/scion_types/share/scion_types/environment/path.sh\n'}
+[12.778225] (scion_types) StdoutLine: {'line': b'-- Installing: /home/mechatronics/core_dependencies/scion_types/install/scion_types/share/scion_types/environment/path.dsv\n'}
+[12.778482] (scion_types) StdoutLine: {'line': b'-- Installing: /home/mechatronics/core_dependencies/scion_types/install/scion_types/share/scion_types/local_setup.bash\n'}
+[12.778720] (scion_types) StdoutLine: {'line': b'-- Installing: /home/mechatronics/core_dependencies/scion_types/install/scion_types/share/scion_types/local_setup.sh\n'}
+[12.778907] (scion_types) StdoutLine: {'line': b'-- Installing: /home/mechatronics/core_dependencies/scion_types/install/scion_types/share/scion_types/local_setup.zsh\n'}
+[12.779129] (scion_types) StdoutLine: {'line': b'-- Installing: /home/mechatronics/core_dependencies/scion_types/install/scion_types/share/scion_types/local_setup.dsv\n'}
+[12.779346] (scion_types) StdoutLine: {'line': b'-- Installing: /home/mechatronics/core_dependencies/scion_types/install/scion_types/share/scion_types/package.dsv\n'}
+[12.779580] (scion_types) StdoutLine: {'line': b'-- Installing: /home/mechatronics/core_dependencies/scion_types/install/scion_types/share/ament_index/resource_index/packages/scion_types\n'}
+[12.779798] (scion_types) StdoutLine: {'line': b'-- Installing: /home/mechatronics/core_dependencies/scion_types/install/scion_types/share/scion_types/cmake/scion_types__rosidl_generator_cExport.cmake\n'}
+[12.780023] (scion_types) StdoutLine: {'line': b'-- Installing: /home/mechatronics/core_dependencies/scion_types/install/scion_types/share/scion_types/cmake/scion_types__rosidl_generator_cExport-noconfig.cmake\n'}
+[12.780236] (scion_types) StdoutLine: {'line': b'-- Installing: /home/mechatronics/core_dependencies/scion_types/install/scion_types/share/scion_types/cmake/scion_types__rosidl_typesupport_introspection_cExport.cmake\n'}
+[12.780452] (scion_types) StdoutLine: {'line': b'-- Installing: /home/mechatronics/core_dependencies/scion_types/install/scion_types/share/scion_types/cmake/scion_types__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[12.780662] (scion_types) StdoutLine: {'line': b'-- Installing: /home/mechatronics/core_dependencies/scion_types/install/scion_types/share/scion_types/cmake/scion_types__rosidl_typesupport_cExport.cmake\n'}
+[12.780885] (scion_types) StdoutLine: {'line': b'-- Installing: /home/mechatronics/core_dependencies/scion_types/install/scion_types/share/scion_types/cmake/scion_types__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[12.781095] (scion_types) StdoutLine: {'line': b'-- Installing: /home/mechatronics/core_dependencies/scion_types/install/scion_types/share/scion_types/cmake/scion_types__rosidl_generator_cppExport.cmake\n'}
+[12.781296] (scion_types) StdoutLine: {'line': b'-- Installing: /home/mechatronics/core_dependencies/scion_types/install/scion_types/share/scion_types/cmake/scion_types__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[12.781503] (scion_types) StdoutLine: {'line': b'-- Installing: /home/mechatronics/core_dependencies/scion_types/install/scion_types/share/scion_types/cmake/scion_types__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[12.781707] (scion_types) StdoutLine: {'line': b'-- Installing: /home/mechatronics/core_dependencies/scion_types/install/scion_types/share/scion_types/cmake/scion_types__rosidl_typesupport_cppExport.cmake\n'}
+[12.781901] (scion_types) StdoutLine: {'line': b'-- Installing: /home/mechatronics/core_dependencies/scion_types/install/scion_types/share/scion_types/cmake/scion_types__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[12.782061] (scion_types) StdoutLine: {'line': b'-- Installing: /home/mechatronics/core_dependencies/scion_types/install/scion_types/share/scion_types/cmake/rosidl_cmake-extras.cmake\n'}
+[12.782213] (scion_types) StdoutLine: {'line': b'-- Installing: /home/mechatronics/core_dependencies/scion_types/install/scion_types/share/scion_types/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[12.782367] (scion_types) StdoutLine: {'line': b'-- Installing: /home/mechatronics/core_dependencies/scion_types/install/scion_types/share/scion_types/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[12.782518] (scion_types) StdoutLine: {'line': b'-- Installing: /home/mechatronics/core_dependencies/scion_types/install/scion_types/share/scion_types/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[12.782668] (scion_types) StdoutLine: {'line': b'-- Installing: /home/mechatronics/core_dependencies/scion_types/install/scion_types/share/scion_types/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[12.782817] (scion_types) StdoutLine: {'line': b'-- Installing: /home/mechatronics/core_dependencies/scion_types/install/scion_types/share/scion_types/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[12.782963] (scion_types) StdoutLine: {'line': b'-- Installing: /home/mechatronics/core_dependencies/scion_types/install/scion_types/share/scion_types/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[12.783130] (scion_types) StdoutLine: {'line': b'-- Installing: /home/mechatronics/core_dependencies/scion_types/install/scion_types/share/scion_types/cmake/scion_typesConfig.cmake\n'}
+[12.783293] (scion_types) StdoutLine: {'line': b'-- Installing: /home/mechatronics/core_dependencies/scion_types/install/scion_types/share/scion_types/cmake/scion_typesConfig-version.cmake\n'}
+[12.783444] (scion_types) StdoutLine: {'line': b'-- Installing: /home/mechatronics/core_dependencies/scion_types/install/scion_types/share/scion_types/package.xml\n'}
+[12.786152] (scion_types) CommandEnded: {'returncode': 0}
+[12.854941] (-) TimerEvent: {}
+[12.955930] (-) TimerEvent: {}
+[13.056610] (-) TimerEvent: {}
+[13.160531] (-) TimerEvent: {}
+[13.203803] (scion_types) JobEnded: {'identifier': 'scion_types', 'rc': 0}
+[13.205242] (-) EventReactorShutdown: {}

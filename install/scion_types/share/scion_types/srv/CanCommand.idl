@@ -1,0 +1,22 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from scion_types/srv/CanCommand.srv
+// generated code does not contain a copyright notice
+
+
+module scion_types {
+  module srv {
+    typedef uint8 uint8__4[4];
+    struct CanCommand_Request {
+      int16 command;
+
+      int16 device;
+
+      int16 topic;
+
+      uint8__4 data;
+    };
+    struct CanCommand_Response {
+      int8 status;
+    };
+  };
+};

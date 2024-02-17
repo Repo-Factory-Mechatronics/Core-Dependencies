@@ -1,0 +1,2 @@
+Invoking command in '/home/mechatronics/scion_types/build/scion_types': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/mechatronics/scion_types/build/scion_types -- -j12 -l12
+Invoked command in '/home/mechatronics/scion_types/build/scion_types' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/mechatronics/scion_types/build/scion_types -- -j12 -l12

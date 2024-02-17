@@ -1,0 +1,6 @@
+[0.036s] Invoking command in '/home/mechatronics/scion_types/build/scion_types': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/mechatronics/scion_types/build/scion_types -- -j12 -l12
+[0.063s] CMake Error: The current CMakeCache.txt directory /home/mechatronics/scion_types/build/scion_types/CMakeCache.txt is different than the directory /home/mechatronics/core_dependencies/scion_types/build/scion_types where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt
+[0.106s] CMake Error: The source directory "/home/mechatronics/core_dependencies/scion_types" does not exist.
+[0.106s] Specify --help for usage, or press the help button on the CMake GUI.
+[0.109s] make: *** [Makefile:3148: cmake_check_build_system] Error 1
+[0.114s] Invoked command in '/home/mechatronics/scion_types/build/scion_types' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/mechatronics/scion_types/build/scion_types -- -j12 -l12
